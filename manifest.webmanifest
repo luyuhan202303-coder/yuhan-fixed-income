@@ -1,0 +1,15 @@
+{
+  "name": "芋含的固收平台",
+  "short_name": "芋含固收",
+  "description": "覆盖中国利率债、信用债、可转债、美债与商品的市场跟踪和面试研究工作台。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef2f6",
+  "theme_color": "#10233f",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "./icons/app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

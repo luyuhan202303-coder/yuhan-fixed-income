@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="芋含的固收平台：覆盖中国利率债、信用债、可转债、美债与商品的市场跟踪和面试研究工作台。" />
+    <meta name="theme-color" content="#10233f" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="芋含固收" />
+    <title>芋含的固收平台</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/app-icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/app-icon-192.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="brand" href="#top" aria-label="固收市场日报首页">
+        <span class="brand-mark" aria-hidden="true">YH</span>
+        <span>
+          <strong>芋含的固收平台</strong>
+          <small>FIXED INCOME RESEARCH</small>
+        </span>
+      </a>
+      <div class="masthead-meta">
+        <button class="install-button" id="installButton" type="button">装到手机</button>
+        <span class="share-pill"><i></i> 可分享访问</span>
+        <span id="clock">UTC+8</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="eyebrow">FIXED INCOME RESEARCH TERMINAL</div>
+        <h1 id="page-title">固收市场工作台</h1>
+        <p>跟踪利率、信用、转债、海外与商品市场；把行情、研究判断和面试表达放进同一套工作流。</p>
+        <div class="hero-meta" aria-label="平台信息">
+          <span><i></i> 交易日更新</span>
+          <span>5类市场</span>
+          <span>日 / 周 / 月视角</span>
+        </div>
+
+        <div class="period-switch" id="periodSwitch" role="tablist" aria-label="观察周期">
+          <button type="button" role="tab" class="period-button" data-period="day" aria-selected="true">当日</button>
+          <button type="button" role="tab" class="period-button" data-period="week" aria-selected="false">本周</button>
+          <button type="button" role="tab" class="period-button" data-period="month" aria-selected="false">本月</button>
+        </div>
+
+        <div class="controls" aria-label="日报筛选">
+          <label class="date-control">
+            <span id="dateControlLabel">交易日</span>
+            <input id="dateSelect" type="date" min="2026-01-01" aria-label="选择交易日" />
+          </label>
+          <div class="category-tabs" id="categoryTabs" role="tablist" aria-label="市场分类"></div>
+          <button class="refresh-button" id="refreshButton" type="button" title="刷新公开来源候选">
+            <span aria-hidden="true">↻</span> 刷新来源
+          </button>
+        </div>
+      </section>
+
+      <section class="dashboard" aria-live="polite">
+        <div class="dashboard-head">
+          <div>
+            <span class="status-line"><i></i><span id="statusText">已核验归档</span></span>
+            <h2 id="marketTitle">中国利率债</h2>
+          </div>
+          <div class="head-actions">
+            <div class="asof">
+              <span>数据日期</span>
+              <strong id="asOfDate">—</strong>
+            </div>
+            <button class="detail-button" id="openDetail" type="button">
+              <span>展开图表</span>
+              <strong>详细分析 ↗</strong>
+            </button>
+          </div>
+        </div>
+
+        <div class="market-layout">
+          <div class="metric-grid" id="metricGrid"></div>
+
+          <aside class="commentary-card">
+            <span class="card-kicker">RESEARCH VIEW</span>
+            <h3>核心判断</h3>
+            <p id="commentary">—</p>
+            <div class="watch-box">
+              <span>下一步关注</span>
+              <strong id="watchPoint">—</strong>
+            </div>
+          </aside>
+        </div>
+
+        <button class="chart-entry" id="chartEntry" type="button" aria-label="打开图表和详细分析">
+          <span class="chart-entry-copy">
+            <small>QUICK CHART</small>
+            <strong id="chartEntryTitle">关键趋势一眼看懂</strong>
+            <em>点击查看图表、驱动拆解与权威来源</em>
+          </span>
+          <span class="chart-entry-visual" id="chartEntryVisual" aria-hidden="true"></span>
+          <span class="chart-entry-arrow" aria-hidden="true">→</span>
+        </button>
+
+        <section class="interview-panel" aria-labelledby="interview-title">
+          <div class="interview-head">
+            <div>
+              <span class="card-kicker">INTERVIEW MODE</span>
+              <h3 id="interview-title">从观点到表达</h3>
+            </div>
+            <button class="copy-answer" id="copyAnswer" type="button">复制60秒回答</button>
+          </div>
+
+          <div class="quick-answer">
+            <span>60秒回答 · 先结论，再讲两层原因</span>
+            <p id="shortAnswer">—</p>
+          </div>
+
+          <div class="deep-answer">
+            <div class="deep-label">
+              <span>3分钟展开</span>
+              <strong>走势 → 驱动 → 判断</strong>
+            </div>
+            <div class="logic-grid" id="logicGrid"></div>
+          </div>
+
+          <div class="qa-block">
+            <div class="deep-label">
+              <span>高频追问</span>
+              <strong>点击展开参考思路</strong>
+            </div>
+            <div class="qa-list" id="qaList"></div>
+          </div>
+        </section>
+
+        <div class="source-strip">
+          <div>
+            <span class="card-kicker">SOURCE TAPE</span>
+            <h3>权威资料来源</h3>
+            <p>点击直达原文</p>
+          </div>
+          <div class="source-list" id="sourceList"></div>
+        </div>
+      </section>
+
+      <section class="method" aria-label="口径说明">
+        <div>
+          <span class="section-index">01</span>
+          <h3>先说结论</h3>
+          <p>面试回答先用一句话定方向，再用两项数据证明，避免只罗列市场新闻。</p>
+        </div>
+        <div>
+          <span class="section-index">02</span>
+          <h3>再讲传导</h3>
+          <p>按“基本面—资金面—政策面—估值面”解释驱动，并说明变量如何传导到收益率和价格。</p>
+        </div>
+        <div>
+          <span class="section-index">03</span>
+          <h3>最后留风险</h3>
+          <p>给出基准判断后补充反向风险和下一步观察点，表达会比单边预测更完整。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>芋含的固收平台 · FIXED INCOME RESEARCH TERMINAL</span>
+      <span>仅供学习研究，不构成投资建议</span>
+      <span id="updatedAt">最后归档：—</span>
+    </footer>
+
+    <dialog class="detail-dialog" id="detailDialog" aria-labelledby="detailTitle">
+      <div class="detail-shell">
+        <header class="detail-header">
+          <div>
+            <span class="detail-period" id="detailPeriod">—</span>
+            <h2 id="detailTitle">市场详细分析</h2>
+          </div>
+          <button class="dialog-close" id="closeDetail" type="button" aria-label="关闭详细分析">×</button>
+        </header>
+        <p class="detail-thesis" id="detailThesis">—</p>
+
+        <section class="chart-section" aria-labelledby="chartSectionTitle">
+          <div class="section-heading">
+            <div>
+              <span class="card-kicker">MARKET CHARTS</span>
+              <h3 id="chartSectionTitle">趋势图</h3>
+            </div>
+            <span id="chartAsOf">图表口径见卡片说明</span>
+          </div>
+          <div class="chart-grid" id="chartGrid"></div>
+        </section>
+
+        <section class="detail-reasoning" aria-labelledby="reasoningTitle">
+          <div class="section-heading">
+            <div>
+              <span class="card-kicker">INTERVIEW LOGIC</span>
+              <h3 id="reasoningTitle">面试展开逻辑</h3>
+            </div>
+          </div>
+          <div class="detail-logic" id="detailLogic"></div>
+        </section>
+
+        <section class="detail-source-section" aria-labelledby="detailSourceTitle">
+          <div class="section-heading">
+            <div>
+              <span class="card-kicker">EVIDENCE</span>
+              <h3 id="detailSourceTitle">数据与判断出处</h3>
+            </div>
+            <span>外链将在新窗口打开</span>
+          </div>
+          <div class="detail-source-list" id="detailSourceList"></div>
+        </section>
+      </div>
+    </dialog>
+
+    <dialog class="install-dialog" id="installDialog" aria-labelledby="installTitle">
+      <div class="install-shell">
+        <button class="dialog-close" id="closeInstall" type="button" aria-label="关闭安装说明">×</button>
+        <span class="card-kicker">MOBILE ACCESS</span>
+        <h2 id="installTitle">把日报放到手机桌面</h2>
+        <div class="install-steps">
+          <article><span>iPhone / iPad</span><p>用 Safari 打开本站，点击“分享”，再选择“添加到主屏幕”。</p></article>
+          <article><span>Android</span><p>用 Chrome 打开本站，点击菜单，选择“安装应用”或“添加到主屏幕”。</p></article>
+        </div>
+        <p class="install-note">添加后可像 App 一样从桌面打开；已访问过的页面支持基础离线浏览。</p>
+      </div>
+    </dialog>
+
+    <template id="metricTemplate">
+      <article class="metric-card">
+        <div class="metric-topline">
+          <span class="metric-label"></span>
+          <span class="metric-direction"></span>
+        </div>
+        <strong class="metric-value"></strong>
+        <div class="metric-change"></div>
+        <div class="metric-note"></div>
+        <a class="metric-source" target="_blank" rel="noopener noreferrer">查看原始来源 ↗</a>
+      </article>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

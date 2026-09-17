@@ -1,0 +1,339 @@
+{
+  "week": {
+    "label": "本周",
+    "range": "09月14日—09月16日",
+    "asOf": "2026-09-16",
+    "verified": true,
+    "markets": {
+      "overview": {
+        "title": "本周固收总览",
+        "commentary": "本周最清晰的主线是中外债市分化：国内收益率低位窄幅下行，美债在鹰派加息后升破5%；转债先跌后修复，商品继续受地缘风险与紧缩预期拉扯。",
+        "watch": "国内关注税期资金和政策增量；海外关注美国通胀、12月再加息定价与油价。",
+        "metrics": [
+          {"label":"中国10年国债","value":"1.6785%","change":"本周 −0.35 BP","direction":"down","note":"由9月14日1.682%小幅下行，国内债市偏强但仍是窄幅震荡","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"中证转债指数","value":"480.67","change":"本周 +0.13%","direction":"up","note":"周一上涨、周二回调、周三修复，结构性行情强于趋势行情","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"美国10年国债","value":"5.012%","change":"本周约 +3.9 BP","direction":"up","note":"美联储加息后长端仍高于5%，反映通胀与财政风险溢价","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+          {"label":"Brent原油","value":"$105.83","change":"高位回落","direction":"down","note":"周三下跌2.7%，但地缘风险仍令油价维持高位","source":"WSJ","sourceUrl":"https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/oil-pares-recent-gains-after-fed-interest-rate-move-krSM3iecTbFBro8ZgEfJ"}
+        ],
+        "interview": {
+          "short":"如果面试官问我最近一周的固收市场，我会先概括为“国内偏强、海外偏弱、转债震荡修复”。国内10年国债收益率小幅下行至1.68%附近，核心支撑是内需和融资需求仍偏弱、央行持续净投放；但税期和政策预期限制下行空间。美债则在美联储加息后升破5%，反映能源通胀和更高更久的利率预期。策略上，我对国内利率债仍偏中性略多，信用债以中高评级票息为主，转债只看结构性机会。",
+          "logic":[
+            {"label":"走势","text":"国内10年期收益率低位小幅下行；美债10年期升破5%；转债指数周内先跌后修复。"},
+            {"label":"驱动","text":"国内是弱需求与流动性托底，海外是油价、通胀和鹰派美联储共同推高收益率。"},
+            {"label":"判断","text":"国内债牛基础未破但赔率下降，久期不宜过度激进；信用下沉和高价转债都要控制仓位。"}
+          ],
+          "qa":[
+            {"q":"为什么中美债市走势背离？","a":"两国所处的增长、通胀和货币政策周期不同。国内需求偏弱、资金面相对稳定；美国面临能源通胀和继续收紧预期，因此美债要求更高的实际利率与期限溢价。"},
+            {"q":"你认为本周最重要的变量是什么？","a":"海外是美联储对后续加息路径的信号，国内则是税期资金和央行对冲。二者分别决定美债上行斜率和国内债市能否维持低波动。"}
+          ]
+        },
+        "sources":[
+          {"title":"债市日报：9月14日","publisher":"东方财富 / 新华财经","url":"https://finance.eastmoney.com/a/202609143873463237.html"},
+          {"title":"债市日报：9月16日","publisher":"新华财经","url":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"title":"Fed加息后的市场反应","publisher":"Reuters","url":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"}
+        ]
+      },
+      "rates": {
+        "title": "本周中国利率债",
+        "commentary": "利率债连续偏强但幅度有限，10年期仍围绕1.68%运行；央行前三个交易日累计净投放约6385亿元，缓冲税期扰动。",
+        "watch": "税期结束后的资金价格、政府债供给，以及政策预期是否打破1.68%—1.70%的窄幅区间。",
+        "metrics": [
+          {"label":"10年国债活跃券","value":"1.6785%","change":"本周 −0.35 BP","direction":"down","note":"26附息国债10，周内小幅走强","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"10年国债期货","value":"109.47","change":"本周约 +0.10%","direction":"up","note":"T主力由周一109.365升至周三109.47","source":"东方财富","sourceUrl":"https://finance.eastmoney.com/a/202609143873463237.html"},
+          {"label":"前三日公开市场","value":"+6385亿元","change":"累计净投放","direction":"down","note":"周一、周二、周三分别净投放5035亿、920亿、430亿元","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+          {"label":"隔夜Shibor","value":"1.442%","change":"周三 +1.26 BP","direction":"up","note":"央行净投放下资金利率仍受税期扰动","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"}
+        ],
+        "interview": {
+          "short":"本周国内利率债延续偏强，但我不会简单定义为趋势性债牛加速。10年期国债收益率只从1.682%小幅下行到1.6785%，说明基本面偏弱和央行净投放提供支撑，但市场对政策与供给仍有顾虑。资金面上，央行前三日累计净投放约6385亿元，但隔夜Shibor仍上行，反映税期扰动。我的判断是短期仍以区间震荡为主，交易上可以保留一定久期，但不宜在低收益率位置过度追涨。",
+          "logic":[
+            {"label":"基本面","text":"融资需求与内需偏弱，银行配置需求仍在，是收益率难以大幅上行的基础。"},
+            {"label":"资金面","text":"央行大额净投放对冲税期，但资金利率仍偏紧，限制长端快速下行。"},
+            {"label":"估值面","text":"10年期已处低位，继续下行需要更强的政策或经济数据催化，当前赔率一般。"}
+          ],
+          "qa":[
+            {"q":"央行净投放，为什么资金利率还会上行？","a":"净投放只能说明央行在对冲，并不代表资金需求弱。税期缴款、季末回表和政府债缴款会同时抽走流动性，资金价格仍可能阶段性上行。"},
+            {"q":"现在适合拉长久期吗？","a":"可以保留中等久期，但不建议单边激进。弱基本面支撑债市，低收益率和政策扰动又压缩安全垫，更适合逢调整配置而非追涨。"}
+          ]
+        },
+        "sources":[
+          {"title":"债市日报：9月14日","publisher":"东方财富 / 新华财经","url":"https://finance.eastmoney.com/a/202609143873463237.html"},
+          {"title":"债市日报：9月15日","publisher":"新华财经","url":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+          {"title":"债市日报：9月16日","publisher":"新华财经","url":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"}
+        ]
+      },
+      "credit": {
+        "title": "本周中国信用债",
+        "commentary": "利率债偏强继续托底高等级信用债，但信用利差位于历史低位、季末配置力量减弱，继续下沉的收益风险比不高。",
+        "watch": "理财赎回与回表、短端资金波动、弱资质主体估值调整。",
+        "metrics": [
+          {"label":"信用利差","value":"历史低位","change":"安全垫偏薄","direction":"flat","note":"利差进一步压缩空间有限，易受资金面扰动","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"},
+          {"label":"配置力量","value":"季节性减弱","change":"需求边际回落","direction":"down","note":"季末资金回表与政府债供给挤压信用配置","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"},
+          {"label":"供给判断","value":"环比回落","change":"补半年报影响","direction":"down","note":"9月信用债净融资预计环比减少","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"},
+          {"label":"优选策略","value":"中高评级票息","change":"优质主体3—5年","direction":"flat","note":"兼顾票息、流动性和尾部风险","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"}
+        ],
+        "interview": {
+          "short":"我对本周信用债的判断是“票息尚可，但利差保护不足”。利率债偏强使高等级信用债表现稳定，不过当前信用利差处于历史低位，季末理财回表和政府债供给会削弱配置力量。因此我不会单纯为了增厚收益继续下沉，而会以中高评级、流动性较好的票息资产为主；对优质主体可以适度拉长到3至5年，对弱资质主体则要防范估值波动和流动性折价。",
+          "logic":[
+            {"label":"收益来源","text":"当前收益更多来自持有票息，而不是期待信用利差继续大幅压缩。"},
+            {"label":"主要风险","text":"低利差意味着安全垫薄，资金波动或负面事件容易放大净价损失。"},
+            {"label":"配置选择","text":"中高评级、3—5年优质主体相对均衡，弱资质下沉应更强调个券研究。"}
+          ],
+          "qa":[
+            {"q":"信用利差低为什么不能继续下沉？","a":"下沉获得的额外票息有限，但尾部违约、估值和流动性风险并没有同比下降，收益风险比反而变差。"},
+            {"q":"利率债上涨是否一定利好信用债？","a":"会提供无风险利率下行的支撑，但信用债还受利差和流动性影响。若资金紧张或赎回压力上升，信用利差可能走阔，抵消利率下行收益。"}
+          ]
+        },
+        "sources":[{"title":"9月信用债配置力量季节性减弱","publisher":"证券时报","url":"https://www.stcn.com/article/detail/4183651.html"}]
+      },
+      "convertible": {
+        "title": "本周可转债",
+        "commentary": "指数周内先涨、后跌、再修复，最终小幅收涨；成交额周三放大，说明情绪回暖，但个券分化和高波动仍明显。",
+        "watch": "正股风格、成交持续性、高价高溢价品种回撤，以及强赎与下修条款事件。",
+        "metrics": [
+          {"label":"中证转债指数","value":"480.67","change":"本周 +0.13%","direction":"up","note":"480.04 → 477.88 → 480.67，周内先抑后扬","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"周三成交额","value":"544亿元","change":"较周一 +15.8%","direction":"up","note":"情绪修复同时量能回升","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"连续活跃个券","value":"澳弘转债","change":"周一、周三领涨","direction":"up","note":"结构性赚钱效应集中于高弹性个券","source":"东方财富","sourceUrl":"https://finance.eastmoney.com/a/202609143873463237.html"},
+          {"label":"波动特征","value":"分化加剧","change":"涨跌尾部均大","direction":"flat","note":"声迅转债等个券出现两位数跌幅","source":"新浪财经","sourceUrl":"https://finance.sina.com.cn/money/bond/2026-09-14/doc-inirutpa4596542.shtml"}
+        ],
+        "interview": {
+          "short":"本周转债不是单边行情，而是典型的结构性修复。中证转债指数从周一480.04点出发，周二回调、周三回升到480.67点，整周仅小幅上涨，但周三成交额升至544亿元。我的理解是市场风险偏好有所修复，却没有形成普涨趋势，收益集中在有正股催化和较高弹性的个券。策略上更适合自下而上选券，避免追高高价、高溢价品种，同时关注强赎、下修和到期条款。",
+          "logic":[
+            {"label":"指数","text":"周内小涨掩盖了明显的日内与个券分化，不能只看指数判断赚钱效应。"},
+            {"label":"驱动","text":"正股表现、转债估值与条款事件共同决定收益，高弹性品种更依赖正股催化。"},
+            {"label":"策略","text":"优先基本面和条款兼具保护的标的，控制高价高溢价券的回撤风险。"}
+          ],
+          "qa":[
+            {"q":"转债上涨主要看正股还是估值？","a":"短期由正股弹性决定方向，但涨幅能否传导取决于转股溢价率、债底和条款。高溢价券即使正股上涨，跟涨也可能不足。"},
+            {"q":"为什么指数变化不大但个券机会很多？","a":"转债行业和价格结构差异大，权重券相对稳定，而小规模高弹性个券波动更大，所以指数可能平稳、个券分化却很强。"}
+          ]
+        },
+        "sources":[
+          {"title":"债市日报：9月14日","publisher":"东方财富 / 新华财经","url":"https://finance.eastmoney.com/a/202609143873463237.html"},
+          {"title":"债市日报：9月16日","publisher":"新华财经","url":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"}
+        ]
+      },
+      "ust": {
+        "title": "本周美国国债",
+        "commentary": "美联储加息后曲线熊平，2年期收益率上行幅度高于10年期；10年期站上5%，显示通胀和更高更久预期仍未被压制。",
+        "watch": "美国通胀数据、12月加息概率、财政供给与期限溢价。",
+        "metrics": [
+          {"label":"2年期美债","value":"4.732%","change":"本周约 +8.7 BP","direction":"up","note":"政策敏感端对继续加息预期反应最强","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+          {"label":"10年期美债","value":"5.012%","change":"本周约 +3.9 BP","direction":"up","note":"升破5%，处于2007年以来高位","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+          {"label":"联邦基金区间","value":"3.75%—4.00%","change":"+25 BP","direction":"up","note":"加息获一致通过，年内可能再加一次","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+          {"label":"曲线形态","value":"熊平","change":"短端上行更快","direction":"flat","note":"紧缩预期主要冲击政策敏感端","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"}
+        ],
+        "interview": {
+          "short":"本周美债的核心是鹰派加息推动曲线熊平。美联储加息25BP后，2年期收益率升至4.73%左右，10年期升破5%，短端上行更快，说明市场不仅消化本次加息，还在重估后续政策路径。长端同时受到能源通胀、财政供给和期限溢价支撑。短期我对美债仍偏谨慎，除非通胀明显回落或经济快速降温，否则长端收益率很难持续大幅下行。",
+          "logic":[
+            {"label":"政策端","text":"一致加息和点阵图强化了年内仍可能加息一次的预期。"},
+            {"label":"通胀端","text":"油价高企令通胀回落路径更不确定，推高名义收益率。"},
+            {"label":"长端风险","text":"财政供给和期限溢价使长端不完全受政策利率控制。"}
+          ],
+          "qa":[
+            {"q":"为什么加息后30年期反而小幅下行？","a":"市场可能认为更强的短期紧缩有助于约束长期通胀，因此短端上行、超长端相对稳定，表现为曲线熊平。"},
+            {"q":"10年美债到5%是否具有配置价值？","a":"绝对收益率更有吸引力，但入场仍需看通胀和期限溢价是否见顶。若能源冲击持续，5%未必就是收益率上限。"}
+          ]
+        },
+        "sources":[
+          {"title":"Fed加息后的市场反应","publisher":"Reuters","url":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+          {"title":"10年美债创19年新高","publisher":"MarketWatch","url":"https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-federal-reserve-interest-rate-decision-september-meeting/card/10-year-yield-settles-at-a-fresh-19-year-high-as-fed-can-t-stop-its-rise-2RXEWles555dnQaKCI5d"}
+        ]
+      },
+      "commodities": {
+        "title": "本周商品市场",
+        "commentary": "原油维持高位但在美联储决议后回吐，黄金围绕4300美元震荡；商品同时受地缘风险支撑和实际利率上升压制。",
+        "watch": "中东供给风险、沙特管线恢复、美国实际利率与美元。",
+        "metrics": [
+          {"label":"Brent原油","value":"$105.83","change":"周三 −2.7%","direction":"down","note":"结束连续两日上涨，但仍处高位","source":"WSJ","sourceUrl":"https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/oil-pares-recent-gains-after-fed-interest-rate-move-krSM3iecTbFBro8ZgEfJ"},
+          {"label":"黄金","value":"约$4,300","change":"高位震荡","direction":"flat","note":"地缘避险支撑与鹰派美联储相互抵消","source":"Trading Economics","sourceUrl":"https://tradingeconomics.com/commodity/gold"},
+          {"label":"美元指数","value":"100.30","change":"决议后 +0.6%","direction":"up","note":"鹰派政策信号对贵金属形成压力","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+          {"label":"商品主线","value":"供给 × 利率","change":"高波动","direction":"flat","note":"能源看供给冲击，黄金看实际利率与避险需求","source":"Reuters","sourceUrl":"https://www.reuters.com/business/bund-yields-close-17-year-highs-mixed-energy-prices-fed-focus-2026-09-16/"}
+        ],
+        "interview": {
+          "short":"本周商品市场的矛盾是供给冲击与货币紧缩并存。原油因中东风险维持在100美元以上，但美联储加息后Brent单日回落2.7%；黄金围绕4300美元震荡，一方面有地缘避险和油价通胀支撑，另一方面受到实际利率与美元上升压制。因此我不会把黄金和原油简单归为同一方向：油价更看供给，黄金更看实际利率、美元和避险需求的相对强弱。",
+          "logic":[
+            {"label":"原油","text":"主要由供给风险和运输通道决定，货币政策影响更多体现在需求预期。"},
+            {"label":"黄金","text":"避险与通胀利好金价，但实际利率和美元上行会提高持有机会成本。"},
+            {"label":"传导","text":"高油价会通过通胀预期影响美债和美联储，进而反向影响黄金。"}
+          ],
+          "qa":[
+            {"q":"为什么油价高但黄金不一定上涨？","a":"油价推高通胀的同时也可能促使央行更鹰派，实际利率和美元上升会压制黄金，所以两者并非稳定同涨。"},
+            {"q":"商品对债市最重要的传导是什么？","a":"主要通过通胀预期和货币政策预期。能源上涨抬高通胀，推升名义收益率并延后宽松预期。"}
+          ]
+        },
+        "sources":[
+          {"title":"Oil pares gains after Fed move","publisher":"WSJ","url":"https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/oil-pares-recent-gains-after-fed-interest-rate-move-krSM3iecTbFBro8ZgEfJ"},
+          {"title":"Gold market data and drivers","publisher":"Trading Economics","url":"https://tradingeconomics.com/commodity/gold"}
+        ]
+      }
+    }
+  },
+  "month": {
+    "label": "本月",
+    "range": "09月01日—09月17日",
+    "asOf": "2026-09-17",
+    "verified": true,
+    "markets": {
+      "overview": {
+        "title": "本月固收总览",
+        "commentary": "9月至今国内债市低波震荡，美债则出现显著上行；转债指数回撤约2.6%，黄金近一个月略跌、原油高位运行。核心是国内弱需求与海外能源通胀的分化。",
+        "watch": "月末资金与政府债供给、国内增量政策、美国通胀及能源价格。",
+        "metrics": [
+          {"label":"中国10年国债","value":"1.6785%","change":"月内 −0.45 BP","direction":"down","note":"月初1.683%，整体围绕1.68%—1.70%窄幅波动","source":"东方财富","sourceUrl":"https://bond.eastmoney.com/a/202609013861513655.html"},
+          {"label":"中证转债指数","value":"480.67","change":"月内 −2.58%","direction":"down","note":"由月初493.42点回落，权益与高估值品种承压","source":"东方财富","sourceUrl":"https://bond.eastmoney.com/a/202609013861513655.html"},
+          {"label":"美国10年国债","value":"5.003%","change":"9月 +24.6 BP","direction":"up","note":"通胀、油价和财政风险共同推动长端上行","source":"MarketWatch","sourceUrl":"https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-federal-reserve-interest-rate-decision-september-meeting/card/10-year-yield-settles-at-a-fresh-19-year-high-as-fed-can-t-stop-its-rise-2RXEWles555dnQaKCI5d"},
+          {"label":"黄金近一月","value":"约$4,295","change":"−0.92%","direction":"down","note":"截至9月17日；避险支撑未完全抵消实际利率与美元压力","source":"Trading Economics","sourceUrl":"https://tradingeconomics.com/commodity/gold"}
+        ],
+        "interview": {
+          "short":"如果看9月至今，我认为最重要的不是所有债券同涨同跌，而是中外资产明显分化。国内10年国债收益率基本稳定在1.68%附近，反映弱需求与配置盘支撑；美债10年期则累计上行约25BP并升破5%，受到能源通胀、财政供给和加息预期推动。转债指数月内回撤约2.6%，说明权益风险偏好和估值仍需消化。我的组合判断是：国内利率债保持中性略多，信用债重票息轻下沉，转债等待更明确的正股主线。",
+          "logic":[
+            {"label":"国内","text":"利率低位震荡，债牛逻辑仍在，但低收益率使资本利得空间收窄。"},
+            {"label":"海外","text":"能源冲击叠加财政与紧缩预期，美债收益率明显上行。"},
+            {"label":"资产选择","text":"国内债券偏防守，信用重质量，转债从指数机会转向个券机会。"}
+          ],
+          "qa":[
+            {"q":"本月国内债市为什么没有跟随美债下跌？","a":"国内通胀和增长环境不同，资金跨境传导也并非一比一。弱融资需求、银行配置和央行流动性使国内收益率保持稳定。"},
+            {"q":"接下来什么会打破国内窄幅震荡？","a":"向下需要更弱的经济数据或宽松增量，向上则可能来自强刺激、政府债供给加速或资金面明显收紧。"}
+          ]
+        },
+        "sources":[
+          {"title":"债市日报：9月1日","publisher":"东方财富 / 新华财经","url":"https://bond.eastmoney.com/a/202609013861513655.html"},
+          {"title":"10年美债9月累计上行24.6BP","publisher":"MarketWatch","url":"https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-federal-reserve-interest-rate-decision-september-meeting/card/10-year-yield-settles-at-a-fresh-19-year-high-as-fed-can-t-stop-its-rise-2RXEWles555dnQaKCI5d"},
+          {"title":"黄金近一个月表现","publisher":"Trading Economics","url":"https://tradingeconomics.com/commodity/gold"}
+        ]
+      },
+      "rates": {
+        "title": "本月中国利率债",
+        "commentary": "10年国债月内几乎走平，维持1.68%—1.70%窄幅区间；基本面提供底部支撑，政策、供给和低估值空间共同限制下行。",
+        "watch": "月末资金、政府债发行、政策性金融工具落地及四季度财政发力。",
+        "metrics": [
+          {"label":"月初10年国债","value":"1.683%","change":"09月01日","direction":"flat","note":"26附息国债10月初收益率","source":"东方财富","sourceUrl":"https://bond.eastmoney.com/a/202609013861513655.html"},
+          {"label":"最新10年国债","value":"1.6785%","change":"月内 −0.45 BP","direction":"down","note":"幅度很小，说明市场仍缺少突破性催化","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"月内核心区间","value":"1.68%—1.70%","change":"约2 BP","direction":"flat","note":"10年活跃券维持低波动整理","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"政策底色","value":"适度宽松","change":"流动性对冲","direction":"down","note":"央行通过多种逆回购工具平滑月中资金波动","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"}
+        ],
+        "interview": {
+          "short":"9月至今国内利率债的特征是低位、低波动。10年期国债收益率从月初1.683%到最新1.6785%，变化不到1BP。向下的支撑来自融资需求偏弱和央行流动性对冲，向上的约束来自政策预期、政府债供给以及当前绝对收益率已经较低。我的基准判断仍是区间震荡，债牛基础没有破坏，但交易难度上升，更适合逢调整配置，而不是在低位追涨。",
+          "logic":[
+            {"label":"为什么不跌","text":"弱需求、低通胀与配置需求使收益率上行空间有限。"},
+            {"label":"为什么不涨","text":"收益率已低，政策与供给扰动使进一步下行需要更强催化。"},
+            {"label":"如何交易","text":"保持中等久期，重视票息和骑乘，利用调整而非追逐日内行情。"}
+          ],
+          "qa":[
+            {"q":"低波动环境下债券怎么赚钱？","a":"资本利得空间下降后，收益更多来自票息、杠杆息差和曲线骑乘，因此久期与资金成本管理更重要。"},
+            {"q":"四季度最大的上行风险是什么？","a":"如果财政明显发力、政府债供给加速并带动经济预期改善，叠加资金面收紧，收益率可能阶段性上行。"}
+          ]
+        },
+        "sources":[
+          {"title":"债市日报：9月1日","publisher":"东方财富 / 新华财经","url":"https://bond.eastmoney.com/a/202609013861513655.html"},
+          {"title":"债市日报：9月16日","publisher":"新华财经","url":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"}
+        ]
+      },
+      "credit": {
+        "title": "本月中国信用债",
+        "commentary": "9月信用供给与需求可能同步回落，但利差已处历史低位；票息策略仍有效，依赖利差继续压缩的胜率下降。",
+        "watch": "季末理财回表、摊余债基开放、信用债净融资与弱主体负面事件。",
+        "metrics": [
+          {"label":"信用供给","value":"季节性回落","change":"净融资环比减少","direction":"down","note":"补半年报影响发行节奏","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"},
+          {"label":"信用需求","value":"边际减弱","change":"季末回表","direction":"down","note":"理财配置与政府债挤出效应并存","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"},
+          {"label":"信用利差","value":"历史低位","change":"易上难下","direction":"flat","note":"短端更易受资金扰动，中长端或窄幅震荡","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"},
+          {"label":"杠杆建议","value":"不宜提高","change":"息差偏低","direction":"flat","note":"资金面窄幅震荡，套息空间有限","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"}
+        ],
+        "interview": {
+          "short":"9月信用债的关键不是方向性大涨，而是低利差下如何获取稳健票息。供给受半年报影响可能回落，但需求也因季末回表、理财增配放缓和政府债挤出而减弱，所以利差继续压缩的空间有限。我倾向中高评级票息策略，优质主体可适度拉长至3—5年，但不建议增加杠杆或无差别下沉，因为弱资质主体的估值波动会更大。",
+          "logic":[
+            {"label":"供需","text":"供给和需求同步回落，单靠供给减少不足以推动利差大幅压缩。"},
+            {"label":"估值","text":"历史低利差降低容错率，净价更容易受到资金与事件冲击。"},
+            {"label":"策略","text":"高等级票息优先，优质主体适度久期，弱主体强调现金流和再融资。"}
+          ],
+          "qa":[
+            {"q":"如何判断信用债是否值得下沉？","a":"比较额外利差能否覆盖预期损失、流动性折价和估值波动，同时分析发行人现金流、债务到期和再融资渠道。"},
+            {"q":"信用供给减少为什么利差不一定收窄？","a":"因为需求也可能下降。季末回表、赎回和政府债供给会分流资金，供需两端同时走弱时利差未必压缩。"}
+          ]
+        },
+        "sources":[{"title":"9月信用债配置力量季节性减弱","publisher":"证券时报","url":"https://www.stcn.com/article/detail/4183651.html"}]
+      },
+      "convertible": {
+        "title": "本月可转债",
+        "commentary": "中证转债指数月内回撤约2.6%，但低点后出现修复；整体性机会不足，正股催化、估值和条款共同决定个券表现。",
+        "watch": "权益风格切换、转股溢价率压缩、强赎密度和新券供给。",
+        "metrics": [
+          {"label":"月初指数","value":"493.42","change":"09月01日","direction":"flat","note":"月初成交额483.67亿元","source":"东方财富","sourceUrl":"https://bond.eastmoney.com/a/202609013861513655.html"},
+          {"label":"最新指数","value":"480.67","change":"月内 −2.58%","direction":"down","note":"指数层面仍处回撤，但较9月10日低点有所修复","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"最新成交额","value":"544亿元","change":"较月初 +12.5%","direction":"up","note":"修复阶段量能有所回升","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+          {"label":"市场特征","value":"结构性","change":"个券分化","direction":"flat","note":"指数偏弱与高弹性个券机会并存","source":"东方财富","sourceUrl":"https://finance.eastmoney.com/a/202609143873463237.html"}
+        ],
+        "interview": {
+          "short":"9月至今转债指数从493.42点回落至480.67点，跌幅约2.6%，说明市场并不存在普遍性机会。不过最新成交额回升到544亿元，部分高弹性券明显修复。因此我更倾向把当前市场定义为结构性行情：先看正股基本面和催化，再看转股溢价率、债底与强赎条款是否允许收益兑现，避免只因为价格低就买入。",
+          "logic":[
+            {"label":"指数层面","text":"月内回撤表明风险偏好和估值仍在消化，整体Beta有限。"},
+            {"label":"个券层面","text":"成交回升与领涨券活跃说明Alpha仍在，但高度依赖正股和条款。"},
+            {"label":"风控层面","text":"高价、高溢价和临近强赎品种都可能放大回撤。"}
+          ],
+          "qa":[
+            {"q":"低价转债是否一定更安全？","a":"不一定。低价可能来自正股基本面差、信用风险或到期压力，必须同时看债底、剩余期限、回售与下修可能性。"},
+            {"q":"你会如何筛选当前转债？","a":"先筛正股景气与估值，再看转债价格、转股溢价率、债底、流动性和强赎保护，最后做收益与回撤情景。"}
+          ]
+        },
+        "sources":[
+          {"title":"债市日报：9月1日","publisher":"东方财富 / 新华财经","url":"https://bond.eastmoney.com/a/202609013861513655.html"},
+          {"title":"债市日报：9月16日","publisher":"新华财经","url":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"}
+        ]
+      },
+      "ust": {
+        "title": "本月美国国债",
+        "commentary": "9月美债出现明显调整，10年期收益率累计上行约24.6BP并升破5%；能源通胀、财政风险和加息预期共同抬升利率中枢。",
+        "watch": "核心通胀、非农、油价、国债拍卖和12月FOMC定价。",
+        "metrics": [
+          {"label":"10年期美债","value":"5.003%","change":"9月 +24.6 BP","direction":"up","note":"创2007年以来新高","source":"MarketWatch","sourceUrl":"https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-federal-reserve-interest-rate-decision-september-meeting/card/10-year-yield-settles-at-a-fresh-19-year-high-as-fed-can-t-stop-its-rise-2RXEWles555dnQaKCI5d"},
+          {"label":"2年期美债","value":"4.725%","change":"政策端显著上行","direction":"up","note":"升至2024年7月以来高位","source":"MarketWatch","sourceUrl":"https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-federal-reserve-interest-rate-decision-september-meeting/card/10-year-yield-settles-at-a-fresh-19-year-high-as-fed-can-t-stop-its-rise-2RXEWles555dnQaKCI5d"},
+          {"label":"联邦基金区间","value":"3.75%—4.00%","change":"9月加息25BP","direction":"up","note":"为2023年以来首次加息","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+          {"label":"年内政策预期","value":"或再加息一次","change":"点阵图中值","direction":"up","note":"未来通胀数据将决定路径","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"}
+        ],
+        "interview": {
+          "short":"9月美债是本月最明确的空头主线之一，10年期收益率累计上行约25BP并升破5%。这既有美联储重启加息的影响，也有油价推升通胀、国债供给增加和期限溢价上升的贡献。因此不能只用政策利率解释长端。后续如果通胀和油价不明显回落，我认为美债波动仍会偏高；配置价值在提升，但更适合分批进入而不是直接押注收益率见顶。",
+          "logic":[
+            {"label":"短端","text":"主要交易美联储路径和通胀数据，9月加息直接推升政策敏感端。"},
+            {"label":"长端","text":"除政策外，还叠加财政供给、期限溢价和长期通胀风险。"},
+            {"label":"配置","text":"绝对收益率更有吸引力，但见顶确认仍需通胀和能源价格配合。"}
+          ],
+          "qa":[
+            {"q":"为什么美联储加息不能压低长端收益率？","a":"若市场认为通胀、财政赤字和供给压力持续，期限溢价会继续上升，短期紧缩不足以抵消长端风险补偿。"},
+            {"q":"当前美债最大的多头催化是什么？","a":"核心通胀连续回落、就业快速降温或油价大幅下跌，都可能让市场下调后续加息预期并压低期限溢价。"}
+          ]
+        },
+        "sources":[
+          {"title":"10年美债9月累计上行24.6BP","publisher":"MarketWatch","url":"https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-federal-reserve-interest-rate-decision-september-meeting/card/10-year-yield-settles-at-a-fresh-19-year-high-as-fed-can-t-stop-its-rise-2RXEWles555dnQaKCI5d"},
+          {"title":"Fed加息后的市场反应","publisher":"Reuters","url":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"}
+        ]
+      },
+      "commodities": {
+        "title": "本月商品市场",
+        "commentary": "黄金近一个月小幅回落，原油则因地缘供给风险维持100美元以上；能源上涨通过通胀预期成为全球债市的重要上行风险。",
+        "watch": "中东局势、能源运输恢复、美国实际利率与美元趋势。",
+        "metrics": [
+          {"label":"黄金近一月","value":"约$4,295","change":"−0.92%","direction":"down","note":"截至9月17日；避险支撑与鹰派利率环境相互抵消","source":"Trading Economics","sourceUrl":"https://tradingeconomics.com/commodity/gold"},
+          {"label":"Brent原油","value":"约$105.8","change":"维持100美元以上","direction":"up","note":"地缘风险使能源风险溢价保持高位","source":"WSJ","sourceUrl":"https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/oil-pares-recent-gains-after-fed-interest-rate-move-krSM3iecTbFBro8ZgEfJ"},
+          {"label":"美元指数","value":"100.30","change":"重回100上方","direction":"up","note":"鹰派美联储对黄金形成估值压力","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+          {"label":"固收影响","value":"通胀上行风险","change":"推升海外利率","direction":"up","note":"高油价可能延长全球高利率环境","source":"Reuters","sourceUrl":"https://www.reuters.com/business/bund-yields-close-17-year-highs-mixed-energy-prices-fed-focus-2026-09-16/"}
+        ],
+        "interview": {
+          "short":"本月商品对固收最重要的影响来自油价，而不只是商品本身的涨跌。Brent维持在100美元以上会抬升通胀预期，使美联储更难转向宽松，并推高美债收益率。黄金近一个月反而小幅下跌，因为避险和通胀属性受到实际利率与美元上升的抵消。因此分析商品时，我会把原油放在通胀传导链条里，把黄金放在实际利率、美元和避险需求的三因素框架里。",
+          "logic":[
+            {"label":"能源","text":"供给冲击推高油价，并通过通胀预期影响全球货币政策。"},
+            {"label":"黄金","text":"避险与通胀利多，实际利率和美元利空，方向取决于力量对比。"},
+            {"label":"债市","text":"高油价延后降息或推动加息，是海外长端收益率上行的重要风险。"}
+          ],
+          "qa":[
+            {"q":"油价上涨如何影响中国债市？","a":"输入性通胀会抬升PPI并压缩货币宽松空间，但若同时削弱实际需求，也可能对增长形成拖累，因此影响需结合政策反应判断。"},
+            {"q":"黄金在加息周期中一定下跌吗？","a":"不一定。若加息伴随地缘风险或通胀失控，避险需求可能抵消实际利率压力，关键是实际利率、美元和避险三者的相对变化。"}
+          ]
+        },
+        "sources":[
+          {"title":"Gold market data and one-month performance","publisher":"Trading Economics","url":"https://tradingeconomics.com/commodity/gold"},
+          {"title":"Oil pares gains after Fed move","publisher":"WSJ","url":"https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/oil-pares-recent-gains-after-fed-interest-rate-move-krSM3iecTbFBro8ZgEfJ"}
+        ]
+      }
+    }
+  }
+}

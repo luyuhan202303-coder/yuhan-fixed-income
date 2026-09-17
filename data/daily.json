@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-09-17T03:30:00Z",
+  "days": [
+    {
+      "date": "2026-09-16",
+      "label": "09月16日 · 周三",
+      "verified": true,
+      "markets": {
+        "rates": {
+          "title": "中国利率债",
+          "commentary": "现券与期货延续偏强，但幅度很窄；基本面仍托底债市，税期扰动和输入性通胀限制收益率进一步下行。",
+          "watch": "政府债供给、税期资金波动，以及央行公开市场对冲力度。",
+          "metrics": [
+            {"label":"10年国债活跃券","value":"1.6785%","change":"−0.25 BP","direction":"down","note":"26附息国债10 · 收益率下行代表价格走强","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"label":"30年国债活跃券","value":"2.138%","change":"−0.20 BP","direction":"down","note":"26超长特别国债04 · 长端小幅走强","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"label":"10年国债期货","value":"109.47","change":"+0.03%","direction":"up","note":"T主力合约收盘价","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"label":"隔夜 Shibor","value":"1.442%","change":"+1.26 BP","direction":"up","note":"公开市场单日净投放430亿元，短端资金利率仍上行","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"}
+          ],
+          "sources":[
+            {"title":"债市日报：9月16日","publisher":"新华财经","url":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"title":"中债收益率曲线与估值","publisher":"中国债券信息网","url":"https://yield.chinabond.com.cn/"}
+          ]
+        },
+        "credit": {
+          "title": "中国信用债",
+          "commentary": "利率债偏强为信用债提供支撑，但信用利差仍处低位，季末配置力量可能边际减弱；当前更适合控制久期与下沉节奏。",
+          "watch": "短端资金价格、季末赎回压力，以及弱资质主体的估值波动。",
+          "metrics": [
+            {"label":"信用环境","value":"偏稳","change":"利差低位","direction":"flat","note":"当日未取得统一可核验的全市场信用利差收盘值","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"},
+            {"label":"配置力量","value":"边际减弱","change":"季节性","direction":"flat","note":"9月信用债配置力量存在季节性回落压力","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"},
+            {"label":"利率底色","value":"偏强","change":"现券多数上涨","direction":"down","note":"利率债收益率下行，对高等级信用债形成支撑","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"label":"策略信号","value":"谨慎下沉","change":"重视票息保护","direction":"flat","note":"低利差环境下，尾部风险对收益风险比更敏感","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"}
+          ],
+          "sources":[
+            {"title":"9月债市或维持区间震荡","publisher":"证券时报","url":"https://www.stcn.com/article/detail/4183651.html"},
+            {"title":"债市日报：9月16日","publisher":"新华财经","url":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"}
+          ]
+        },
+        "convertible": {
+          "title": "可转债",
+          "commentary": "转债指数放量上涨，个券赚钱效应明显回升；高弹性品种领涨，但头部涨幅较大，次日需防范情绪分化。",
+          "watch": "领涨券持续性、成交额能否维持，以及正股风格是否继续支撑高弹性转债。",
+          "metrics": [
+            {"label":"中证转债指数","value":"480.67","change":"+0.58%","direction":"up","note":"收盘指数","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"label":"全市场成交额","value":"544亿元","change":"较前日 +108亿元","direction":"up","note":"较9月15日成交额明显放大","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"label":"领涨个券","value":"澳弘转债","change":"+17.45%","direction":"up","note":"泰福、集智、严牌、华懋转债涨幅亦居前","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"label":"领跌个券","value":"康泰转2","change":"−2.56%","direction":"down","note":"尚太、柳工转2、申能转债等跌幅居前","source":"新华财经","sourceUrl":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"}
+          ],
+          "sources":[
+            {"title":"债市日报：9月16日","publisher":"新华财经","url":"https://m.cnfin.com/yw-lb//zixun/20260916/4470701_1.html"},
+            {"title":"债券频道行情资讯","publisher":"东方财富","url":"https://bond.eastmoney.com/"}
+          ]
+        },
+        "ust": {
+          "title": "美国国债",
+          "commentary": "美联储加息后曲线偏熊平：前端对进一步紧缩反应更强，10年期站上5%；政策信号而非本次25BP本身成为主导。",
+          "watch": "后续通胀数据、12月再加息定价，以及10年期收益率在5%上方的稳定性。",
+          "metrics": [
+            {"label":"2年期美债","value":"4.732%","change":"+7.0 BP","direction":"up","note":"对政策路径最敏感，涨幅显著高于长端","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+            {"label":"10年期美债","value":"5.012%","change":"+2.0 BP","direction":"up","note":"美联储决议后维持在5%上方","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+            {"label":"30年期美债","value":"5.357%","change":"−0.5 BP","direction":"down","note":"超长端表现相对稳定","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+            {"label":"联邦基金目标区间","value":"3.75–4.00%","change":"+25 BP","direction":"up","note":"FOMC一致通过加息，点阵图指向年内或再加息一次","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"}
+          ],
+          "sources":[
+            {"title":"Fed hikes; Treasuries reprice","publisher":"Reuters","url":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+            {"title":"Daily Treasury Par Yield Curve Rates","publisher":"U.S. Treasury","url":"https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"}
+          ]
+        },
+        "commodities": {
+          "title": "商品市场",
+          "commentary": "油价在加息落地后回吐，黄金则受到盘中收益率回落支撑；鹰派政策与地缘风险形成方向相反的两股力量。",
+          "watch": "油价能否守住100美元上方、实际利率变化，以及地缘冲突对能源风险溢价的影响。",
+          "metrics": [
+            {"label":"Brent原油","value":"$105.83","change":"−2.70%","direction":"down","note":"9月16日收盘，结束连续两个交易日上涨","source":"Wall Street Journal","sourceUrl":"https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/oil-pares-recent-gains-after-fed-interest-rate-move-krSM3iecTbFBro8ZgEfJ"},
+            {"label":"纽约黄金期货","value":"$4,366.40","change":"+0.80%","direction":"up","note":"美联储决议前盘中报价，非最终收盘价","source":"Barron's","sourceUrl":"https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/gold-boosted-by-easing-oil-prices-treasury-yields-YXfYPWUroVoL4VvCK2Gb"},
+            {"label":"美元指数","value":"100.30","change":"+0.60%","direction":"up","note":"美联储决议后报价","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+            {"label":"核心驱动","value":"政策 × 地缘","change":"高波动","direction":"flat","note":"鹰派加息压制商品，地缘风险继续支撑能源与黄金风险溢价","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"}
+          ],
+          "sources":[
+            {"title":"Oil pares gains after Fed move","publisher":"WSJ","url":"https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/oil-pares-recent-gains-after-fed-interest-rate-move-krSM3iecTbFBro8ZgEfJ"},
+            {"title":"Gold boosted by easing yields","publisher":"Barron's","url":"https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/gold-boosted-by-easing-oil-prices-treasury-yields-YXfYPWUroVoL4VvCK2Gb"},
+            {"title":"Fed decision market reaction","publisher":"Reuters","url":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"}
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "label": "09月15日 · 周二",
+      "verified": true,
+      "markets": {
+        "rates": {
+          "title": "中国利率债",
+          "commentary": "经济数据对交投影响有限，利率债继续偏强整理；超长端由交易盘主导，30年与10年利差继续压缩的空间已较有限。",
+          "watch": "税期资金波动、监管政策，以及超长端交易拥挤度。",
+          "metrics": [
+            {"label":"10年国债活跃券","value":"1.6815%","change":"−0.25 BP","direction":"down","note":"26附息国债10","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"30年国债活跃券","value":"2.1670%","change":"−0.54 BP","direction":"down","note":"26超长特别国债04","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"10年国债期货","value":"109.45","change":"+0.08%","direction":"up","note":"T主力合约收盘价","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"隔夜 Shibor","value":"1.4294%","change":"+1.74 BP","direction":"up","note":"公开市场单日净投放920亿元，税期扰动仍推升短端资金利率","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"}
+          ],
+          "sources":[{"title":"债市日报：9月15日","publisher":"新华财经","url":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"}]
+        },
+        "credit": {
+          "title": "中国信用债",
+          "commentary": "社融和贷款数据偏弱，实体融资需求不足继续支持银行配债；但利差低位下，信用下沉仍需强调个券选择。",
+          "watch": "社融增速、银行配置盘释放节奏和低资质主体融资可得性。",
+          "metrics": [
+            {"label":"信用环境","value":"偏稳","change":"基本面支撑","direction":"flat","note":"内需与融资需求偏弱，配置盘仍有释放空间","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"前8月社融增量","value":"23.91万亿","change":"同比少2.64万亿","direction":"down","note":"融资增速偏弱，利率中枢受支撑","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"M2同比","value":"7.5%","change":"8月末","direction":"flat","note":"货币总量维持温和增长","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"策略信号","value":"票息优先","change":"控制下沉","direction":"flat","note":"低利差环境更看重个券基本面与流动性","source":"证券时报","sourceUrl":"https://www.stcn.com/article/detail/4183651.html"}
+          ],
+          "sources":[
+            {"title":"债市日报：9月15日","publisher":"新华财经","url":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"title":"9月信用债配置力量季节性减弱","publisher":"证券时报","url":"https://www.stcn.com/article/detail/4183651.html"}
+          ]
+        },
+        "convertible": {
+          "title": "可转债",
+          "commentary": "转债指数回调且成交缩量，个券分化加剧；高弹性品种仍有结构性机会，但整体情绪偏谨慎。",
+          "watch": "指数能否企稳、成交额是否回升，以及跌幅居前个券的负反馈。",
+          "metrics": [
+            {"label":"中证转债指数","value":"477.88","change":"−0.45%","direction":"down","note":"收盘指数","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"全市场成交额","value":"435.94亿元","change":"缩量","direction":"down","note":"市场活跃度回落","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"领涨个券","value":"澳弘转债","change":"+5.52%","direction":"up","note":"金帝、精测转2、鼎龙转债等涨幅居前","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"领跌个券","value":"声迅转债","change":"−11.52%","direction":"down","note":"强达、大中、尚太、运机转债跌幅居前","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"}
+          ],
+          "sources":[{"title":"债市日报：9月15日","publisher":"新华财经","url":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"}]
+        },
+        "ust": {
+          "title": "美国国债",
+          "commentary": "长短端收益率继续上行，10年期一度突破5%；市场在美联储会议前提前计入更鹰派的政策路径。",
+          "watch": "FOMC政策决定、点阵图，以及10年期能否有效站稳5%。",
+          "metrics": [
+            {"label":"2年期美债","value":"4.6451%","change":"+1.97 BP","direction":"up","note":"截至当地时间9月14日尾盘","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"10年期美债","value":"4.9731%","change":"+0.62 BP","direction":"up","note":"盘中最高5.02%，逼近长期高位","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"曲线形态","value":"高位震荡","change":"前端偏弱","direction":"flat","note":"短端对政策预期更敏感","source":"新华财经","sourceUrl":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"label":"关键事件","value":"FOMC","change":"次日公布","direction":"flat","note":"会议前市场波动受政策预期主导","source":"Reuters","sourceUrl":"https://www.reuters.com/business/bond-market-woes-likely-factor-fed-intervention-seen-unlikely-2026-09-16/"}
+          ],
+          "sources":[
+            {"title":"债市日报：9月15日","publisher":"新华财经","url":"https://www.cnfin.com/zs-lb/detail/20260915/4470080_1.html"},
+            {"title":"Bond market pressure ahead of Fed","publisher":"Reuters","url":"https://www.reuters.com/business/bond-market-woes-likely-factor-fed-intervention-seen-unlikely-2026-09-16/"}
+          ]
+        },
+        "commodities": {
+          "title": "商品市场",
+          "commentary": "会议前能源与利率预期共同抬升宏观波动；商品方向更依赖次日美联储信号，适合轻仓等待确认。",
+          "watch": "美联储表态、美元方向和原油供给新闻。",
+          "metrics": [
+            {"label":"能源风险溢价","value":"高位","change":"地缘驱动","direction":"up","note":"原油维持高位，通胀预期受到供给冲击扰动","source":"Reuters","sourceUrl":"https://www.reuters.com/business/bund-yields-close-17-year-highs-mixed-energy-prices-fed-focus-2026-09-16/"},
+            {"label":"黄金驱动","value":"等待FOMC","change":"实际利率敏感","direction":"flat","note":"决议前金价对美债收益率回落较敏感","source":"Barron's","sourceUrl":"https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/gold-boosted-by-easing-oil-prices-treasury-yields-YXfYPWUroVoL4VvCK2Gb"},
+            {"label":"美元方向","value":"偏强预期","change":"鹰派定价","direction":"up","note":"美联储加息预期强化美元支撑","source":"Reuters","sourceUrl":"https://www.reuters.com/business/view-markets-steady-after-fed-raises-rates-points-another-hike-this-year-2026-09-16/"},
+            {"label":"策略信号","value":"等待确认","change":"高波动","direction":"flat","note":"缺少统一时点的可核验收盘组合，暂不填入伪精确价格","source":"Reuters","sourceUrl":"https://www.reuters.com/business/bund-yields-close-17-year-highs-mixed-energy-prices-fed-focus-2026-09-16/"}
+          ],
+          "sources":[
+            {"title":"Oil and yields in focus before Fed","publisher":"Reuters","url":"https://www.reuters.com/business/bund-yields-close-17-year-highs-mixed-energy-prices-fed-focus-2026-09-16/"},
+            {"title":"Gold boosted by easing yields","publisher":"Barron's","url":"https://www.barrons.com/livecoverage/stock-market-news-today-091626/card/gold-boosted-by-easing-oil-prices-treasury-yields-YXfYPWUroVoL4VvCK2Gb"}
+          ]
+        }
+      }
+    }
+  ]
+}
