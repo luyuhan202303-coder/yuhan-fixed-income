@@ -1,4 +1,4 @@
-const CACHE = 'yuhan-fixed-income-v5';
+const CACHE = 'yuhan-fixed-income-v6';
 const CORE = [
   './',
   './index.html',
@@ -7,6 +7,7 @@ const CORE = [
   './manifest.webmanifest',
   './data/daily.json',
   './data/periods.json',
+  './data/market-history.json',
   './icons/app-icon-192.png',
   './icons/app-icon-512.png'
 ];

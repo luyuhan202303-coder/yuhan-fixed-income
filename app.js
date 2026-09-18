@@ -121,6 +121,7 @@ const els = {
 
 let archive;
 let periodArchive;
+let marketHistory;
 let activeCategory = 'overview';
 let activePeriod = 'day';
 let selectedDay = '';
@@ -208,6 +209,60 @@ const dailyInterview = {
 function formatDate(date) {
   return new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit', weekday: 'short' })
     .format(new Date(`${date}T12:00:00+08:00`));
+}
+
+function formatGeneratedAt(value) {
+  if (!value) return '时间待确认';
+  return new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hour12: false
+  }).format(new Date(value));
+}
+
+function historyNumber(record, path) {
+  let value = record;
+  path.forEach(key => { value = value?.[key]; });
+  if (value === null || value === undefined || value === '') return null;
+  return Number.isFinite(Number(value)) ? Number(value) : null;
+}
+
+function chartSeries(path) {
+  return marketHistory.days
+    .map(day => ({ date: day.date, value: historyNumber(day, path) }))
+    .filter(point => Number.isFinite(point.value))
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .slice(-31);
+}
+
+function hydrateCharts() {
+  const configs = {
+    rates: ['rates', 'cn10'],
+    credit: ['credit', 'mtn3_spread'],
+    convertible: ['convertible', 'close'],
+    ust: ['ust', '10y'],
+    commodities: ['commodities', 'gold', 'price']
+  };
+  Object.entries(configs).forEach(([key, path]) => {
+    const points = chartSeries(path);
+    if (!points.length) return;
+    Object.assign(chartCatalog[key], {
+      type: 'line',
+      dates: points.map(point => point.date),
+      labels: points.map(point => point.date.slice(5).replace('-', '/')),
+      values: points.map(point => point.value)
+    });
+    delete chartCatalog[key].items;
+  });
+  Object.assign(chartCatalog.credit, {
+    title: 'AAA中票3年信用利差', unit: ' BP', changeUnit: 'absolute',
+    note: '中债AAA中票收益率减同期限国债收益率，用于观察高等级信用债相对估值。',
+    source: '中国债券信息网', sourceUrl: 'https://yield.chinabond.com.cn/'
+  });
+  Object.assign(chartCatalog.commodities, {
+    title: 'COMEX黄金连续合约', unit: '美元', changeUnit: 'pct',
+    note: '自动任务抓取时点报价，不等同于交易所官方结算价。',
+    source: 'CME / 东方财富行情', sourceUrl: 'https://www.cmegroup.com/markets/metals/precious/gold.html'
+  });
 }
 
 function uniqueSources(markets) {
@@ -319,10 +374,23 @@ function visibleSeries(chart) {
   const zipped = chart.values.map((value, index) => ({
     value, date: chart.dates[index], label: chart.labels[index]
   }));
-  if (activePeriod === 'week') return zipped.filter(point => point.date >= '2026-09-14');
+  if (activePeriod === 'week') {
+    const asOf = periodArchive.week.asOf;
+    const start = new Date(`${asOf}T00:00:00Z`);
+    start.setUTCDate(start.getUTCDate() - ((start.getUTCDay() + 6) % 7));
+    const startDate = start.toISOString().slice(0, 10);
+    const filtered = zipped.filter(point => point.date >= startDate && point.date <= asOf);
+    return filtered.length ? filtered : zipped.slice(-1);
+  }
+  if (activePeriod === 'month') {
+    const asOf = periodArchive.month.asOf;
+    const startDate = `${asOf.slice(0, 7)}-01`;
+    const filtered = zipped.filter(point => point.date >= startDate && point.date <= asOf);
+    return filtered.length ? filtered : zipped.slice(-1);
+  }
   if (activePeriod === 'day') {
     const cutoff = currentView().date;
-    const filtered = zipped.filter(point => point.date <= cutoff).slice(-4);
+    const filtered = zipped.filter(point => point.date <= cutoff).slice(-8);
     return filtered.length ? filtered : zipped.slice(0, 1);
   }
   return zipped;
@@ -339,6 +407,10 @@ function chartChange(chart, points) {
   if (chart.changeUnit === 'pct') {
     const value = (last / first - 1) * 100;
     return `${value >= 0 ? '+' : '−'}${Math.abs(value).toFixed(2)}%`;
+  }
+  if (chart.changeUnit === 'absolute') {
+    const value = last - first;
+    return `${value >= 0 ? '+' : '−'}${Math.abs(value).toFixed(2)}${chart.unit}`;
   }
   return `${last}${chart.unit}`;
 }
@@ -686,17 +758,21 @@ function initClock() {
 }
 
 async function init() {
-  const [dailyResponse, periodResponse] = await Promise.all([
-    fetch('./data/daily.json'),
-    fetch('./data/periods.json')
+  const [dailyResponse, periodResponse, historyResponse] = await Promise.all([
+    fetch('./data/daily.json', { cache: 'no-store' }),
+    fetch('./data/periods.json', { cache: 'no-store' }),
+    fetch('./data/market-history.json', { cache: 'no-store' })
   ]);
-  if (!dailyResponse.ok || !periodResponse.ok) throw new Error('市场数据加载失败');
+  if (!dailyResponse.ok || !periodResponse.ok || !historyResponse.ok) throw new Error('市场数据加载失败');
   archive = await dailyResponse.json();
   periodArchive = await periodResponse.json();
+  marketHistory = await historyResponse.json();
   archive.days.sort((a, b) => b.date.localeCompare(a.date));
+  hydrateCharts();
   selectedDay = archive.days[0].date;
   els.date.value = selectedDay;
-  els.updated.textContent = `内容更新：${periodArchive.month.asOf}`;
+  els.date.max = selectedDay;
+  els.updated.textContent = `自动更新：${formatGeneratedAt(archive.generatedAt)} · 最新交易日 ${selectedDay}`;
   renderTabs();
   renderMarket();
   initClock();
