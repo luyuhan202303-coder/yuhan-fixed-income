@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:59:57Z",
+  "generatedAt": "2026-09-18T09:06:07Z",
   "days": [
     {
       "date": "2026-09-17",
@@ -33,12 +33,12 @@
         "turnover_yi": null,
         "top": {
           "name": "亿田转债",
-          "pct": 11.964,
+          "pct": 11.96,
           "price": 181.102
         },
         "bottom": {
           "name": "泰福转债",
-          "pct": -3.496,
+          "pct": -3.5,
           "price": 165.022
         }
       },
@@ -50,22 +50,22 @@
       },
       "commodities": {
         "silver": {
-          "price": 67.545,
-          "pct": 2.19
+          "price": 67.765,
+          "pct": 2.53
         },
         "gold": {
-          "price": 4427.9,
-          "pct": 0.64
+          "price": 4432.4,
+          "pct": 0.74
         },
         "wti": {
           "price": 95.54,
           "pct": -1.74
         },
         "brent": {
-          "price": 98.5,
-          "pct": -1.43
+          "price": 98.48,
+          "pct": -1.45
         },
-        "quote_time": "2026-09-18T16:59+08:00"
+        "quote_time": "2026-09-18T17:06+08:00"
       }
     },
     {
