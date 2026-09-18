@@ -1,0 +1,107 @@
+name: Daily market update
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
+  schedule:
+    # GitHub Actions uses UTC. These are 20:45 and 07:45 China time.
+    - cron: '45 12 * * 1-5'
+    - cron: '45 23 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fixed-income-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      site_path: ${{ steps.site.outputs.path }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: automation/requirements.txt
+
+      - name: Install updater dependencies
+        run: python -m pip install -r automation/requirements.txt
+
+      - name: Fetch and generate market data
+        run: python automation/update_market.py
+
+      - name: Find site directory
+        id: site
+        shell: bash
+        run: |
+          if [[ -f dist/index.html ]]; then
+            echo "path=dist" >> "$GITHUB_OUTPUT"
+          else
+            echo "path=." >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate generated site
+        shell: bash
+        run: |
+          python -m py_compile automation/update_market.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          site = Path("${{ steps.site.outputs.path }}")
+          daily = json.loads((site / "data/daily.json").read_text(encoding="utf-8"))
+          periods = json.loads((site / "data/periods.json").read_text(encoding="utf-8"))
+          assert daily["days"] and daily["generatedAt"]
+          assert periods["week"]["verified"] and periods["month"]["verified"]
+          assert (site / "index.html").exists() and (site / "app.js").exists()
+          print("validated", daily["days"][0]["date"], daily["generatedAt"])
+          PY
+
+      - name: Save generated archive to repository
+        shell: bash
+        run: |
+          git config user.name "yuhan-market-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${{ steps.site.outputs.path }}/data"
+          if git diff --cached --quiet; then
+            echo "No new market data to commit."
+          else
+            git commit -m "chore(data): automatic market update"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow
+
+      - name: Read GitHub Pages configuration
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ steps.site.outputs.path }}
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
