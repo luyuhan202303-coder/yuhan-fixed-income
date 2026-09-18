@@ -1,6 +1,73 @@
 {
-  "generatedAt": "2026-09-17T08:24:05Z",
+  "generatedAt": "2026-09-18T08:59:57Z",
   "days": [
+    {
+      "date": "2026-09-17",
+      "rates": {
+        "cn1": 1.2303,
+        "cn3": 1.2579,
+        "cn5": 1.4106,
+        "cn10": 1.6862,
+        "cn30": 2.1395
+      },
+      "credit": {
+        "mtn1_spread": 28.82,
+        "mtn3_spread": 38.49,
+        "mtn5_spread": 31.109999999999992,
+        "bank5_spread": 17.369999999999997
+      },
+      "shibor": {
+        "on": 1.46,
+        "1w": 1.45,
+        "1m": 1.4222,
+        "3m": 1.43
+      },
+      "convertible": {
+        "open": 480.29,
+        "close": 479.65,
+        "high": 482.15,
+        "low": 478.74,
+        "volume": 2326524.0,
+        "volume_wan": 232.6524,
+        "pct": -0.2122037988640968,
+        "turnover_yi": null,
+        "top": {
+          "name": "亿田转债",
+          "pct": 11.964,
+          "price": 181.102
+        },
+        "bottom": {
+          "name": "泰福转债",
+          "pct": -3.496,
+          "price": 165.022
+        }
+      },
+      "ust": {
+        "2y": 4.67,
+        "10y": 4.94,
+        "30y": 5.29,
+        "source_date": "2026-09-17"
+      },
+      "commodities": {
+        "silver": {
+          "price": 67.545,
+          "pct": 2.19
+        },
+        "gold": {
+          "price": 4427.9,
+          "pct": 0.64
+        },
+        "wti": {
+          "price": 95.54,
+          "pct": -1.74
+        },
+        "brent": {
+          "price": 98.5,
+          "pct": -1.43
+        },
+        "quote_time": "2026-09-18T16:59+08:00"
+      }
+    },
     {
       "date": "2026-09-16",
       "rates": {
@@ -37,7 +104,8 @@
         "bottom": {
           "name": "康泰转2",
           "pct": -2.56
-        }
+        },
+        "volume_wan": 271.2666
       },
       "ust": {
         "2y": 4.74,
@@ -87,7 +155,8 @@
         "high": 481.49,
         "low": 477.67,
         "volume": 2294575.0,
-        "pct": -0.4499625031247456
+        "pct": -0.4499625031247456,
+        "volume_wan": 229.4575
       },
       "ust": {
         "2y": 4.67,
@@ -138,7 +207,8 @@
         "low": 474.74,
         "volume": 2475524.0,
         "pct": 0.5045746707702747,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 247.5524
       },
       "ust": {
         "2y": 4.65,
@@ -175,7 +245,8 @@
         "low": 471.66,
         "volume": 2869183.0,
         "pct": -0.38583465420872765,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 286.9183
       },
       "ust": {
         "2y": 4.63,
@@ -212,7 +283,8 @@
         "low": 475.87,
         "volume": 2543863.0,
         "pct": -0.5805755992369432,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 254.3863
       },
       "ust": {
         "2y": 4.56,
@@ -249,7 +321,8 @@
         "low": 481.24,
         "volume": 2317504.0,
         "pct": -0.6222954873274289,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 231.7504
       },
       "ust": {
         "2y": 4.43,
@@ -286,7 +359,8 @@
         "low": 484.55,
         "volume": 2376041.0,
         "pct": -0.20973844382299323,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 237.6041
       },
       "ust": {
         "2y": 4.39,
@@ -323,7 +397,8 @@
         "low": 483.78,
         "volume": 2537989.0,
         "pct": 0.5021802475769332,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 253.7989
       },
       "ust": {
         "2y": 4.37,
@@ -360,7 +435,8 @@
         "low": 483.46,
         "volume": 2780070.0,
         "pct": -0.46692446931052567,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 278.007
       },
       "ust": {
         "2y": 4.37,
@@ -397,7 +473,8 @@
         "low": 485.75,
         "volume": 2807262.0,
         "pct": -0.6254854666612131,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 280.7262
       },
       "ust": {
         "2y": 4.34,
@@ -434,7 +511,8 @@
         "low": 489.18,
         "volume": 2474061.0,
         "pct": -0.8512018158972068,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 247.4061
       },
       "ust": {
         "2y": 4.39,
@@ -471,7 +549,8 @@
         "low": 493.04,
         "volume": 2507585.0,
         "pct": -0.3010648400719296,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 250.7585
       },
       "ust": {
         "2y": 4.39,
@@ -508,7 +587,8 @@
         "low": 492.33,
         "volume": 2571403.0,
         "pct": -0.19359912880391184,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 257.1403
       },
       "ust": {
         "2y": 4.34,
@@ -545,7 +625,8 @@
         "low": 495.81,
         "volume": 2241513.0,
         "pct": -0.38170239267131256,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 224.1513
       },
       "ust": {
         "2y": 4.34,
@@ -582,7 +663,8 @@
         "low": 493.39,
         "volume": 2275648.0,
         "pct": 0.6816343042071127,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 227.5648
       },
       "ust": {
         "2y": 4.2,
@@ -619,7 +701,8 @@
         "low": 492.78,
         "volume": 2091556.0,
         "pct": 0.32874710824302156,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 209.1556
       },
       "ust": {
         "2y": 4.19,
@@ -656,7 +739,8 @@
         "low": 487.51,
         "volume": 2529532.0,
         "pct": 0.5899283512625253,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 252.9532
       },
       "ust": {
         "2y": 4.17,
@@ -693,7 +777,8 @@
         "low": 488.33,
         "volume": 2190432.0,
         "pct": -0.2930820426190084,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 219.0432
       },
       "ust": {
         "2y": 4.24,
@@ -730,7 +815,8 @@
         "low": 489.46,
         "volume": 2303900.0,
         "pct": -0.04882315845149421,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 230.39
       },
       "ust": {
         "2y": 4.24,
@@ -767,7 +853,8 @@
         "low": 490.69,
         "volume": 2648872.0,
         "pct": 0.010172526041674068,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 264.8872
       },
       "ust": {
         "2y": 4.19,
@@ -804,7 +891,8 @@
         "low": 491.42,
         "volume": 2655821.0,
         "pct": -1.1364322062875964,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 265.5821
       },
       "ust": {
         "2y": 4.19,
@@ -841,7 +929,8 @@
         "low": 495.11,
         "volume": 2423758.0,
         "pct": -0.2968013636819311,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 242.3758
       },
       "ust": {
         "2y": 4.19,
@@ -878,7 +967,8 @@
         "low": 492.24,
         "volume": 2749789.0,
         "pct": 1.047661506038744,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 274.9789
       },
       "ust": {
         "2y": 4.19,
@@ -915,7 +1005,8 @@
         "low": 488.55,
         "volume": 3243309.0,
         "pct": -0.03848724856685415,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 324.3309
       },
       "ust": {
         "2y": 4.17,
@@ -952,7 +1043,8 @@
         "low": 493.52,
         "volume": 3003602.0,
         "pct": -1.093903391901907,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 300.3602
       },
       "ust": {
         "2y": 4.15,
@@ -989,7 +1081,8 @@
         "low": 498.33,
         "volume": 3114451.0,
         "pct": -0.4567029635834219,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 311.4451
       },
       "ust": {
         "2y": 4.2,
@@ -1026,7 +1119,8 @@
         "low": 501.06,
         "volume": 2842517.0,
         "pct": -0.6557961682483682,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 284.2517
       },
       "ust": {
         "2y": 4.22,
@@ -1063,7 +1157,8 @@
         "low": 504.05,
         "volume": 2949628.0,
         "pct": -0.20957314300401597,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 294.9628
       },
       "ust": {
         "2y": 4.25,
@@ -1100,7 +1195,8 @@
         "low": 503.67,
         "volume": 3514435.0,
         "pct": 0.11480374497734314,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 351.4435
       },
       "ust": {
         "2y": 4.19,
@@ -1137,7 +1233,8 @@
         "low": 503.49,
         "volume": 3382823.0,
         "pct": -0.24878077674888033,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 338.2823
       },
       "ust": {
         "2y": 4.25,
@@ -1174,7 +1271,8 @@
         "low": 502.53,
         "volume": 3996072.0,
         "pct": 0.838211284991841,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 399.6072
       },
       "ust": {
         "2y": 4.18,
@@ -1211,7 +1309,8 @@
         "low": 498.74,
         "volume": 4035961.0,
         "pct": 0.8716259640102697,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 403.5961
       },
       "ust": {
         "2y": 4.2,
@@ -1248,7 +1347,8 @@
         "low": 497.68,
         "volume": 3235577.0,
         "pct": -0.352225424271535,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 323.5577
       },
       "ust": {
         "2y": 4.25,
@@ -1285,7 +1385,8 @@
         "low": 499.65,
         "volume": 3594361.0,
         "pct": 0.705389173283888,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 359.4361
       },
       "ust": {
         "2y": 4.28,
@@ -1322,7 +1423,8 @@
         "low": 494.88,
         "volume": 3076699.0,
         "pct": -0.45141745079549933,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 307.6699
       },
       "ust": {
         "2y": 4.23,
@@ -1359,7 +1461,8 @@
         "low": 494.49,
         "volume": 3416017.0,
         "pct": 0.7947421638018204,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 341.6017
       },
       "ust": {
         "2y": 4.22,
@@ -1396,7 +1499,8 @@
         "low": 494.28,
         "volume": 2505588.0,
         "pct": -1.2599588666360462,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 250.5588
       },
       "ust": {
         "2y": 4.26,
@@ -1433,7 +1537,8 @@
         "low": 494.33,
         "volume": 2684255.0,
         "pct": 1.2166777824935693,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 268.4255
       },
       "ust": {
         "2y": 4.31,
@@ -1470,7 +1575,8 @@
         "low": 494.75,
         "volume": 2485895.0,
         "pct": -0.7083801573286141,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 248.5895
       },
       "ust": {
         "2y": 4.33,
@@ -1507,7 +1613,8 @@
         "low": 495.71,
         "volume": 2740636.0,
         "pct": 0.1406695872352426,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 274.0636
       },
       "ust": {
         "2y": 4.37,
@@ -1544,7 +1651,8 @@
         "low": 496.92,
         "volume": 3065044.0,
         "pct": -0.370392616173143,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 306.5044
       },
       "ust": {
         "2y": 4.31,
@@ -1581,7 +1689,8 @@
         "low": 489.76,
         "volume": 3922043.0,
         "pct": 1.3884659886730377,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 392.2043
       },
       "ust": {
         "2y": 4.26,
@@ -1618,7 +1727,8 @@
         "low": 491.48,
         "volume": 3442974.0,
         "pct": -0.05072228534328538,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 344.2974
       },
       "ust": {
         "2y": 4.21,
@@ -1655,7 +1765,8 @@
         "low": 492.77,
         "volume": 3225460.0,
         "pct": -0.7570876288659822,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 322.546
       },
       "ust": {
         "2y": 4.18,
@@ -1692,7 +1803,8 @@
         "low": 495.45,
         "volume": 3151591.0,
         "pct": -0.447010243149526,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 315.1591
       },
       "ust": {
         "2y": 4.16,
@@ -1729,7 +1841,8 @@
         "low": 497.7,
         "volume": 3579301.0,
         "pct": -0.28383537548222204,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 357.9301
       },
       "ust": {
         "2y": 4.13,
@@ -1766,7 +1879,8 @@
         "low": 493.73,
         "volume": 3936757.0,
         "pct": 1.1565602442525913,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 393.6757
       },
       "ust": {
         "2y": 4.18,
@@ -1803,7 +1917,8 @@
         "low": 493.93,
         "volume": 3303653.0,
         "pct": -1.1946858455698761,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 330.3653
       },
       "ust": {
         "2y": 4.26,
@@ -1840,7 +1955,8 @@
         "low": 500.53,
         "volume": 4109837.0,
         "pct": -0.5286063472506486,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 410.9837
       },
       "ust": {
         "2y": 4.21,
@@ -1877,7 +1993,8 @@
         "low": 496.5,
         "volume": 4068916.0,
         "pct": 0.5535129086403856,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 406.8916
       },
       "ust": {
         "2y": 4.16,
@@ -1914,7 +2031,8 @@
         "low": 498.71,
         "volume": 3461629.0,
         "pct": -0.3583943931188327,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 346.1629
       },
       "ust": {
         "2y": 4.21,
@@ -1951,7 +2069,8 @@
         "low": 501.6,
         "volume": 3901706.0,
         "pct": -0.9622968922542996,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 390.1706
       },
       "ust": {
         "2y": 4.19,
@@ -1988,7 +2107,8 @@
         "low": 505.45,
         "volume": 4072225.0,
         "pct": 0.041427472332356,
-        "turnover_yi": null
+        "turnover_yi": null,
+        "volume_wan": 407.2225
       },
       "ust": {
         "2y": 4.13,
