@@ -176,12 +176,14 @@ def fetch_cb_index(days: int = 100) -> dict[str, dict[str, Any]]:
         if len(fields) < 6:
             continue
         close = require(number(fields[2]), "中证转债收盘")
+        volume = require(number(fields[5]), "中证转债成交量")
         result[fields[0]] = {
             "open": require(number(fields[1]), "中证转债开盘"),
             "close": close,
             "high": require(number(fields[3]), "中证转债最高"),
             "low": require(number(fields[4]), "中证转债最低"),
-            "volume": require(number(fields[5]), "中证转债成交量"),
+            "volume": volume,
+            "volume_wan": volume / 10_000,
             "pct": (close / previous_close - 1) * 100 if previous_close else 0,
             "turnover_yi": None,
         }
@@ -493,7 +495,10 @@ def make_daily(record: dict[str, Any], previous: dict[str, Any] | None) -> dict[
     on_bp = difference(s["on"], value_at(previous, "shibor", "on"), 100)
     curve = (r["cn30"] - r["cn10"]) * 100
     mtn3_delta = c["mtn3_spread"] - value_at(previous, "credit", "mtn3_spread") if previous and value_at(previous, "credit", "mtn3_spread") is not None else None
-    turnover_delta = difference(cb["turnover_yi"], value_at(previous, "convertible", "turnover_yi"))
+    turnover = number(cb.get("turnover_yi"))
+    volume_wan = require(number(cb.get("volume_wan")), "中证转债成交量")
+    turnover_delta = difference(turnover, value_at(previous, "convertible", "turnover_yi")) if turnover is not None else None
+    volume_delta = difference(volume_wan, value_at(previous, "convertible", "volume_wan"))
     us2_bp = difference(us["2y"], value_at(previous, "ust", "2y"), 100)
     us10_bp = difference(us["10y"], value_at(previous, "ust", "10y"), 100)
     us30_bp = difference(us["30y"], value_at(previous, "ust", "30y"), 100)
@@ -551,13 +556,38 @@ def make_daily(record: dict[str, Any], previous: dict[str, Any] | None) -> dict[
         ],
         "sources": credit_sources,
     }
+    if turnover is not None:
+        activity_text = f"成交额约{turnover:.1f}亿元"
+        activity_metric = metric(
+            "全市场成交额",
+            f"{turnover:.1f}亿元",
+            f"较前日 {turnover_delta:+.1f}亿元" if turnover_delta is not None else "暂无可比",
+            direction(turnover_delta),
+            "中证转债指数口径成交额",
+            "腾讯行情 / 中证指数",
+            URLS["csi_cb"],
+            turnover,
+        )
+    else:
+        activity_text = f"指数成交量约{volume_wan:.1f}万手"
+        activity_metric = metric(
+            "指数成交量",
+            f"{volume_wan:.1f}万手",
+            f"较前日 {volume_delta:+.1f}万手" if volume_delta is not None else "暂无可比",
+            direction(volume_delta),
+            "腾讯行情历史K线成交量；成交额尚未发布时采用该口径",
+            "腾讯行情 / 中证指数",
+            URLS["csi_cb"],
+            volume_wan,
+        )
+
     convertible = {
         "title": "可转债",
-        "commentary": f"中证转债指数当日{cb_tone}{abs(cb['pct']):.2f}%，成交额约{cb['turnover_yi']:.1f}亿元。领涨与领跌个券分化反映行情仍需结合正股主线、估值和条款，不能只看指数方向。",
+        "commentary": f"中证转债指数当日{cb_tone}{abs(cb['pct']):.2f}%，{activity_text}。领涨与领跌个券分化反映行情仍需结合正股主线、估值和条款，不能只看指数方向。",
         "watch": "正股风格、成交额、转股溢价率、强赎密度以及领涨品种扩散度。",
         "metrics": [
             metric("中证转债指数", f"{cb['close']:.2f}", fmt_pct(cb["pct"]), direction(cb["pct"]), "000832收盘指数", "中证指数 / 东方财富", URLS["csi_cb"], cb["close"]),
-            metric("全市场成交额", f"{cb['turnover_yi']:.1f}亿元", f"较前日 {turnover_delta:+.1f}亿元" if turnover_delta is not None else "暂无可比", direction(turnover_delta), "中证转债指数口径成交额", "东方财富", URLS["csi_cb"], cb["turnover_yi"]),
+            activity_metric,
             metric("最新领涨个券", cb["top"]["name"], fmt_pct(cb["top"]["pct"]), "up", "自动抓取时点涨幅居前，需结合正股和交易拥挤度", "新浪财经 / 上交所", URLS["sse_bond"], cb["top"]["pct"]),
             metric("最新领跌个券", cb["bottom"]["name"], fmt_pct(cb["bottom"]["pct"]), "down", "自动抓取时点跌幅居前，关注条款和正股负反馈", "新浪财经 / 上交所", URLS["sse_bond"], cb["bottom"]["pct"]),
         ],
@@ -634,6 +664,14 @@ def make_period(name: str, records: list[dict[str, Any]]) -> dict[str, Any]:
     brent = delta(latest, first, ("commodities", "brent", "price"), "pct")
     wti = delta(latest, first, ("commodities", "wti", "price"), "pct")
     silver = delta(latest, first, ("commodities", "silver", "price"), "pct")
+    latest_turnover = value_at(latest, "convertible", "turnover_yi")
+    latest_volume_wan = require(value_at(latest, "convertible", "volume_wan"), "中证转债成交量")
+    if latest_turnover is not None:
+        cb_activity_text = f"最新成交额{latest_turnover:.1f}亿元"
+        cb_activity_metric = metric("最新成交额", f"{latest_turnover:.1f}亿元", "指数口径", "flat", "观察市场活跃度", "腾讯行情 / 中证指数", URLS["csi_cb"], latest_turnover)
+    else:
+        cb_activity_text = f"最新指数成交量{latest_volume_wan:.1f}万手"
+        cb_activity_metric = metric("最新指数成交量", f"{latest_volume_wan:.1f}万手", "历史K线口径", "flat", "成交额尚未发布时用于观察市场活跃度", "腾讯行情 / 中证指数", URLS["csi_cb"], latest_volume_wan)
 
     def block(category: str, title: str, commentary: str, watch: str, metrics: list[dict[str, Any]]) -> dict[str, Any]:
         return {
@@ -685,11 +723,11 @@ def make_period(name: str, records: list[dict[str, Any]]) -> dict[str, Any]:
         ),
         "convertible": block(
             "convertible", f"{period_word}可转债",
-            f"{period_word}中证转债指数变化{fmt_pct(cb_change)}，最新成交额{latest['convertible']['turnover_yi']:.1f}亿元。指数之外仍需观察领涨扩散、估值和条款。",
+            f"{period_word}中证转债指数变化{fmt_pct(cb_change)}，{cb_activity_text}。指数之外仍需观察领涨扩散、估值和条款。",
             "正股风格、成交额、转股溢价率和强赎密度。",
             [
                 metric("中证转债指数", f"{latest['convertible']['close']:.2f}", fmt_pct(cb_change), direction(cb_change), "首尾交易日比较", "中证指数 / 东方财富", URLS["csi_cb"], latest["convertible"]["close"]),
-                metric("最新成交额", f"{latest['convertible']['turnover_yi']:.1f}亿元", "指数口径", "flat", "观察市场活跃度", "腾讯行情 / 中证指数", URLS["csi_cb"], latest["convertible"]["turnover_yi"]),
+                cb_activity_metric,
                 metric("最新领涨", latest["convertible"]["top"]["name"], fmt_pct(latest["convertible"]["top"]["pct"]), "up", "最新收盘涨幅居前", "新浪财经 / 上交所", URLS["sse_bond"], latest["convertible"]["top"]["pct"]),
                 metric("最新领跌", latest["convertible"]["bottom"]["name"], fmt_pct(latest["convertible"]["bottom"]["pct"]), "down", "最新收盘跌幅居前", "新浪财经 / 上交所", URLS["sse_bond"], latest["convertible"]["bottom"]["pct"]),
             ],
@@ -742,7 +780,11 @@ def seed_history_from_daily() -> list[dict[str, Any]]:
             "date": item.get("date"),
             "rates": {"cn10": find("rates", "10年国债"), "cn30": find("rates", "30年国债")},
             "shibor": {"on": find("rates", "隔夜 Shibor")},
-            "convertible": {"close": find("convertible", "中证转债指数"), "turnover_yi": find("convertible", "成交额")},
+            "convertible": {
+                "close": find("convertible", "中证转债指数"),
+                "turnover_yi": find("convertible", "成交额"),
+                "volume_wan": find("convertible", "成交量"),
+            },
             "ust": {"2y": find("ust", "2年期"), "10y": find("ust", "10年期"), "30y": find("ust", "30年期")},
             "commodities": {"gold": {"price": find("commodities", "黄金")}, "brent": {"price": find("commodities", "Brent")}},
         }
@@ -809,14 +851,16 @@ def main() -> int:
     if shibor_date != target or cb_date != target:
         raise RuntimeError(f"国内数据日期未对齐: 中债={target}, Shibor={shibor_date}, 转债={cb_date}")
     saved_turnover, saved_movers = saved_convertible_snapshot(existing_daily, target)
-    if cb.get("turnover_yi") is None:
-        cb["turnover_yi"] = require(saved_turnover, f"{target} 中证转债成交额")
+    if cb.get("turnover_yi") is None and saved_turnover is not None:
+        cb["turnover_yi"] = saved_turnover
     if target == max(cb_all):
         movers = fetch_cb_movers()
     elif saved_movers:
         movers = saved_movers
     else:
-        raise RuntimeError(f"{target} 可转债涨跌榜缺少同日快照")
+        # The public ranking endpoint exposes the current snapshot rather than
+        # a historical ranking. The UI labels these rows as the latest movers.
+        movers = fetch_cb_movers()
 
     print("[3/6] 获取美国财政部曲线与商品报价")
     treasury_all = fetch_treasury()
