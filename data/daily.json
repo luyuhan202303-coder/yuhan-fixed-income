@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T17:32:44Z",
+  "generatedAt": "2026-09-25T01:54:10Z",
   "days": [
     {
       "date": "2026-09-24",
@@ -8,7 +8,7 @@
       "markets": {
         "overview": {
           "title": "固收市场总览",
-          "commentary": "当日国内利率债走强，中证转债指数回落，美债整体震荡。中外债市需要分别从国内资金与供给、海外通胀与政策路径解释；商品则通过通胀预期和风险偏好影响固收定价。",
+          "commentary": "当日国内利率债走强，中证转债指数回落，美债整体承压。中外债市需要分别从国内资金与供给、海外通胀与政策路径解释；商品则通过通胀预期和风险偏好影响固收定价。",
           "watch": "国内资金和政府债供给、美国通胀与政策路径、转债成交和能源价格。",
           "metrics": [
             {
@@ -33,23 +33,23 @@
             },
             {
               "label": "10年期美债",
-              "value": "5.11%",
-              "change": "0.00 BP",
-              "direction": "flat",
-              "note": "美国财政部2026-09-23官方曲线",
+              "value": "5.18%",
+              "change": "+7.00 BP",
+              "direction": "down",
+              "note": "美国财政部2026-09-24官方曲线",
               "source": "U.S. Treasury",
               "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-              "numeric": 5.11
+              "numeric": 5.18
             },
             {
               "label": "COMEX黄金",
-              "value": "$4,300.10",
-              "change": "−0.42%",
-              "direction": "down",
+              "value": "$4,326.90",
+              "change": "+0.67%",
+              "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 4300.1
+              "numeric": 4326.9
             }
           ],
           "sources": [
@@ -75,7 +75,7 @@
             }
           ],
           "interview": {
-            "short": "当日市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−0.69 BP，美国10年期变化0.00 BP，中证转债指数变化−1.34%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
+            "short": "当日市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−0.69 BP，美国10年期变化+7.00 BP，中证转债指数变化−1.34%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
             "logic": [
               {
                 "label": "国内债市",
@@ -362,48 +362,48 @@
         },
         "ust": {
           "title": "美国国债",
-          "commentary": "截至美国2026-09-23，10年期美债收益率较前值0.00 BP，债券价格整体震荡。2年期更敏感于政策路径，10年及30年还受到通胀、财政供给和期限溢价影响。",
+          "commentary": "截至美国2026-09-24，10年期美债收益率较前值+7.00 BP，债券价格整体承压。2年期更敏感于政策路径，10年及30年还受到通胀、财政供给和期限溢价影响。",
           "watch": "美国通胀与就业数据、FOMC表态、财政供给以及2年—10年曲线变化。",
           "metrics": [
             {
               "label": "2年期美债",
-              "value": "4.85%",
-              "change": "0.00 BP",
-              "direction": "flat",
-              "note": "美国财政部2026-09-23官方曲线",
+              "value": "4.87%",
+              "change": "+2.00 BP",
+              "direction": "down",
+              "note": "美国财政部2026-09-24官方曲线",
               "source": "U.S. Treasury",
               "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-              "numeric": 4.85
+              "numeric": 4.87
             },
             {
               "label": "10年期美债",
-              "value": "5.11%",
-              "change": "0.00 BP",
-              "direction": "flat",
-              "note": "美国财政部2026-09-23官方曲线",
+              "value": "5.18%",
+              "change": "+7.00 BP",
+              "direction": "down",
+              "note": "美国财政部2026-09-24官方曲线",
               "source": "U.S. Treasury",
               "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-              "numeric": 5.11
+              "numeric": 5.18
             },
             {
               "label": "30年期美债",
-              "value": "5.40%",
-              "change": "0.00 BP",
-              "direction": "flat",
-              "note": "美国财政部2026-09-23官方曲线",
+              "value": "5.47%",
+              "change": "+7.00 BP",
+              "direction": "down",
+              "note": "美国财政部2026-09-24官方曲线",
               "source": "U.S. Treasury",
               "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-              "numeric": 5.4
+              "numeric": 5.47
             },
             {
               "label": "2s10s曲线",
-              "value": "26 BP",
+              "value": "31 BP",
               "change": "10年减2年",
               "direction": "flat",
               "note": "正值代表曲线为正斜率",
               "source": "U.S. Treasury",
               "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-              "numeric": 26.0
+              "numeric": 31.0
             }
           ],
           "sources": [
@@ -419,7 +419,7 @@
             }
           ],
           "interview": {
-            "short": "当日美国10年期国债收益率变化0.00 BP。短端主要反映联储政策路径，长端还包含增长、通胀、财政供给和期限溢价。若短端上行快于长端，通常表现为熊平；反之则可能熊陡。配置上需要确认通胀和期限溢价是否见顶。",
+            "short": "当日美国10年期国债收益率变化+7.00 BP。短端主要反映联储政策路径，长端还包含增长、通胀、财政供给和期限溢价。若短端上行快于长端，通常表现为熊平；反之则可能熊陡。配置上需要确认通胀和期限溢价是否见顶。",
             "logic": [
               {
                 "label": "政策路径",
@@ -448,48 +448,48 @@
         },
         "commodities": {
           "title": "商品市场",
-          "commentary": "自动抓取时点显示，COMEX黄金−0.42%、Brent原油+2.25%。能源主要通过通胀预期影响债市，黄金则同时受实际利率、美元和避险需求驱动。",
+          "commentary": "自动抓取时点显示，COMEX黄金+0.67%、Brent原油−1.29%。能源主要通过通胀预期影响债市，黄金则同时受实际利率、美元和避险需求驱动。",
           "watch": "原油供给与地缘风险、实际利率、美元和交易所结算价。",
           "metrics": [
             {
               "label": "COMEX黄金",
-              "value": "$4,300.10",
-              "change": "−0.42%",
-              "direction": "down",
+              "value": "$4,326.90",
+              "change": "+0.67%",
+              "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 4300.1
+              "numeric": 4326.9
             },
             {
               "label": "COMEX白银",
-              "value": "$64.065",
-              "change": "−1.38%",
-              "direction": "down",
+              "value": "$64.325",
+              "change": "+0.50%",
+              "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 64.065
+              "numeric": 64.325
             },
             {
               "label": "Brent原油",
-              "value": "$100.33",
-              "change": "+2.25%",
-              "direction": "up",
+              "value": "$98.93",
+              "change": "−1.29%",
+              "direction": "down",
               "note": "当月连续合约自动报价",
               "source": "东方财富 / ICE",
               "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-              "numeric": 100.33
+              "numeric": 98.93
             },
             {
               "label": "WTI原油",
-              "value": "$94.65",
-              "change": "+2.70%",
-              "direction": "up",
+              "value": "$93.10",
+              "change": "−1.60%",
+              "direction": "down",
               "note": "NYMEX当月连续合约自动报价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-              "numeric": 94.65
+              "numeric": 93.1
             }
           ],
           "sources": [
@@ -515,7 +515,7 @@
             }
           ],
           "interview": {
-            "short": "当日黄金价格变化−0.79%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
+            "short": "当日黄金价格变化−0.18%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
             "logic": [
               {
                 "label": "能源",
