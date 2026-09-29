@@ -42,13 +42,13 @@
           },
           {
             "label": "COMEX黄金",
-            "value": "$4,162.40",
+            "value": "$4,167.90",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4162.4
+            "numeric": 4167.9
           }
         ],
         "interview": {
@@ -301,7 +301,7 @@
             "note": "最新收盘涨幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": 10.379
+            "numeric": 10.38
           },
           {
             "label": "最新领跌",
@@ -311,7 +311,7 @@
             "note": "最新收盘跌幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": -8.919
+            "numeric": -8.92
           }
         ],
         "interview": {
@@ -447,43 +447,43 @@
         "metrics": [
           {
             "label": "COMEX黄金",
-            "value": "$4,162.40",
+            "value": "$4,167.90",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4162.4
+            "numeric": 4167.9
           },
           {
             "label": "COMEX白银",
-            "value": "$61.355",
+            "value": "$61.105",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 61.355
+            "numeric": 61.105
           },
           {
             "label": "Brent原油",
-            "value": "$98.16",
+            "value": "$99.17",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / ICE",
             "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-            "numeric": 98.16
+            "numeric": 99.17
           },
           {
             "label": "WTI原油",
-            "value": "$92.84",
+            "value": "$93.64",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-            "numeric": 92.84
+            "numeric": 93.64
           }
         ],
         "interview": {
@@ -581,13 +581,13 @@
           },
           {
             "label": "COMEX黄金",
-            "value": "$4,162.40",
+            "value": "$4,167.90",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4162.4
+            "numeric": 4167.9
           }
         ],
         "interview": {
@@ -840,7 +840,7 @@
             "note": "最新收盘涨幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": 10.379
+            "numeric": 10.38
           },
           {
             "label": "最新领跌",
@@ -850,7 +850,7 @@
             "note": "最新收盘跌幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": -8.919
+            "numeric": -8.92
           }
         ],
         "interview": {
@@ -986,43 +986,43 @@
         "metrics": [
           {
             "label": "COMEX黄金",
-            "value": "$4,162.40",
+            "value": "$4,167.90",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4162.4
+            "numeric": 4167.9
           },
           {
             "label": "COMEX白银",
-            "value": "$61.355",
+            "value": "$61.105",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 61.355
+            "numeric": 61.105
           },
           {
             "label": "Brent原油",
-            "value": "$98.16",
+            "value": "$99.17",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / ICE",
             "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-            "numeric": 98.16
+            "numeric": 99.17
           },
           {
             "label": "WTI原油",
-            "value": "$92.84",
+            "value": "$93.64",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-            "numeric": 92.84
+            "numeric": 93.64
           }
         ],
         "interview": {
