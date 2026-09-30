@@ -1,34 +1,34 @@
 {
   "week": {
     "label": "本周",
-    "range": "09月28日—09月29日",
-    "asOf": "2026-09-29",
+    "range": "09月28日—09月30日",
+    "asOf": "2026-09-30",
     "verified": true,
     "markets": {
       "overview": {
         "title": "本周固收总览",
-        "commentary": "本周中国10年国债收益率变化−1.20 BP，美国10年期变化+2.00 BP，中证转债指数变化−0.02%。核心是区分国内资金与基本面、海外通胀与政策，以及风险偏好对转债和商品的影响。",
+        "commentary": "本周中国10年国债收益率变化+0.32 BP，美国10年期变化+2.00 BP，中证转债指数变化−0.16%。核心是区分国内资金与基本面、海外通胀与政策，以及风险偏好对转债和商品的影响。",
         "watch": "国内资金和政府债供给、美国通胀与政策路径、转债成交和商品风险溢价。",
         "metrics": [
           {
             "label": "中国10年国债",
-            "value": "1.6670%",
-            "change": "−1.20 BP",
-            "direction": "up",
+            "value": "1.6822%",
+            "change": "+0.32 BP",
+            "direction": "down",
             "note": "本周首尾交易日比较",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 1.667
+            "numeric": 1.6822
           },
           {
             "label": "中证转债指数",
-            "value": "469.64",
-            "change": "−0.02%",
+            "value": "468.98",
+            "change": "−0.16%",
             "direction": "down",
             "note": "本周首尾交易日比较",
             "source": "中证指数 / 东方财富",
             "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000832",
-            "numeric": 469.64
+            "numeric": 468.98
           },
           {
             "label": "美国10年国债",
@@ -42,17 +42,17 @@
           },
           {
             "label": "COMEX黄金",
-            "value": "$4,207.10",
-            "change": "+0.94%",
+            "value": "$4,181.50",
+            "change": "+0.33%",
             "direction": "up",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4207.1
+            "numeric": 4181.5
           }
         ],
         "interview": {
-          "short": "本周市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−1.20 BP，美国10年期变化+2.00 BP，中证转债指数变化−0.02%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
+          "short": "本周市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化+0.32 BP，美国10年期变化+2.00 BP，中证转债指数变化−0.16%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
           "logic": [
             {
               "label": "国内债市",
@@ -98,52 +98,52 @@
       },
       "rates": {
         "title": "本周中国利率债",
-        "commentary": "本周10年国债收益率变化−1.20 BP、30年变化−2.35 BP，隔夜Shibor变化−1.59 BP。债市方向与资金面需要结合判断。",
+        "commentary": "本周10年国债收益率变化+0.32 BP、30年变化+0.30 BP，隔夜Shibor变化+0.10 BP。债市方向与资金面需要结合判断。",
         "watch": "公开市场操作、政府债发行、资金价格和超长端期限溢价。",
         "metrics": [
           {
             "label": "10年国债收益率",
-            "value": "1.6670%",
-            "change": "−1.20 BP",
-            "direction": "up",
+            "value": "1.6822%",
+            "change": "+0.32 BP",
+            "direction": "down",
             "note": "首尾交易日比较",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 1.667
+            "numeric": 1.6822
           },
           {
             "label": "30年国债收益率",
-            "value": "2.0735%",
-            "change": "−2.35 BP",
-            "direction": "up",
+            "value": "2.1000%",
+            "change": "+0.30 BP",
+            "direction": "down",
             "note": "首尾交易日比较",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 2.0735
+            "numeric": 2.1
           },
           {
             "label": "隔夜 Shibor",
-            "value": "1.3451%",
-            "change": "−1.59 BP",
-            "direction": "down",
+            "value": "1.3620%",
+            "change": "+0.10 BP",
+            "direction": "up",
             "note": "资金价格首尾比较",
             "source": "中国货币网",
             "sourceUrl": "https://www.chinamoney.com.cn/chinese/",
-            "numeric": 1.3451
+            "numeric": 1.362
           },
           {
             "label": "30年—10年利差",
-            "value": "40.65 BP",
+            "value": "41.78 BP",
             "change": "最新曲线",
             "direction": "flat",
             "note": "衡量超长端相对10年期的期限补偿",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 40.65
+            "numeric": 41.78
           }
         ],
         "interview": {
-          "short": "本周中国10年国债收益率变化−1.20 BP。我的判断重点不只看涨跌，还要看资金价格和曲线形态：资金宽松会支撑短端，增长与供给预期影响长端。当前更适合结合绝对点位判断配置价值，而不是只根据单日方向追涨杀跌。",
+          "short": "本周中国10年国债收益率变化+0.32 BP。我的判断重点不只看涨跌，还要看资金价格和曲线形态：资金宽松会支撑短端，增长与供给预期影响长端。当前更适合结合绝对点位判断配置价值，而不是只根据单日方向追涨杀跌。",
           "logic": [
             {
               "label": "基本面",
@@ -184,48 +184,48 @@
       },
       "credit": {
         "title": "本周中国信用债",
-        "commentary": "本周AAA中票3年信用利差最新约34.0BP。低利差下应重视票息保护、主体筛选和流动性。",
+        "commentary": "本周AAA中票3年信用利差最新约35.0BP。低利差下应重视票息保护、主体筛选和流动性。",
         "watch": "信用利差、季末理财行为、净融资和弱主体负面事件。",
         "metrics": [
           {
             "label": "AAA中票1年利差",
-            "value": "28.0 BP",
+            "value": "27.0 BP",
             "change": "较同期限国债",
             "direction": "flat",
             "note": "公开曲线代理",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 28.03
+            "numeric": 27.03
           },
           {
             "label": "AAA中票3年利差",
-            "value": "34.0 BP",
+            "value": "35.0 BP",
             "change": "较同期限国债",
             "direction": "flat",
             "note": "公开曲线代理",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 34.02
+            "numeric": 35.02
           },
           {
             "label": "AAA中票5年利差",
-            "value": "29.1 BP",
+            "value": "27.2 BP",
             "change": "较同期限国债",
             "direction": "flat",
             "note": "公开曲线代理",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 29.07
+            "numeric": 27.17
           },
           {
             "label": "AAA银行债5年利差",
-            "value": "17.2 BP",
+            "value": "15.8 BP",
             "change": "较5年国债",
             "direction": "flat",
             "note": "公开曲线代理",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 17.2
+            "numeric": 15.78
           }
         ],
         "interview": {
@@ -270,52 +270,52 @@
       },
       "convertible": {
         "title": "本周可转债",
-        "commentary": "本周中证转债指数变化−0.02%，最新成交额431.9亿元。指数之外仍需观察领涨扩散、估值和条款。",
+        "commentary": "本周中证转债指数变化−0.16%，最新成交额379.7亿元。指数之外仍需观察领涨扩散、估值和条款。",
         "watch": "正股风格、成交额、转股溢价率和强赎密度。",
         "metrics": [
           {
             "label": "中证转债指数",
-            "value": "469.64",
-            "change": "−0.02%",
+            "value": "468.98",
+            "change": "−0.16%",
             "direction": "down",
             "note": "首尾交易日比较",
             "source": "中证指数 / 东方财富",
             "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000832",
-            "numeric": 469.64
+            "numeric": 468.98
           },
           {
             "label": "最新成交额",
-            "value": "431.9亿元",
+            "value": "379.7亿元",
             "change": "指数口径",
             "direction": "flat",
             "note": "观察市场活跃度",
             "source": "腾讯行情 / 中证指数",
             "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000832",
-            "numeric": 431.900432
+            "numeric": 379.724182
           },
           {
             "label": "最新领涨",
             "value": "润禾转02",
-            "change": "+57.30%",
+            "change": "+8.80%",
             "direction": "up",
             "note": "最新收盘涨幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": 57.3
+            "numeric": 8.805
           },
           {
             "label": "最新领跌",
-            "value": "泰坦转债",
-            "change": "−5.75%",
+            "value": "澳弘转债",
+            "change": "−13.31%",
             "direction": "down",
             "note": "最新收盘跌幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": -5.75
+            "numeric": -13.308
           }
         ],
         "interview": {
-          "short": "本周中证转债指数变化−0.02%。转债同时具有股性和债性，指数上涨可能来自正股、估值或两者共同推动。分析时还要看成交额、领涨品种和转股溢价率；若成交放大且领涨扩散，行情持续性通常更好。",
+          "short": "本周中证转债指数变化−0.16%。转债同时具有股性和债性，指数上涨可能来自正股、估值或两者共同推动。分析时还要看成交额、领涨品种和转股溢价率；若成交放大且领涨扩散，行情持续性通常更好。",
           "logic": [
             {
               "label": "正股",
@@ -442,52 +442,52 @@
       },
       "commodities": {
         "title": "本周商品市场",
-        "commentary": "本周黄金变化+0.94%、Brent原油变化−2.89%。能源看供给与通胀，黄金看实际利率、美元和避险需求。",
+        "commentary": "本周黄金变化+0.33%、Brent原油变化−0.84%。能源看供给与通胀，黄金看实际利率、美元和避险需求。",
         "watch": "能源供给、地缘风险、实际利率、美元和交易所结算价。",
         "metrics": [
           {
             "label": "COMEX黄金",
-            "value": "$4,207.10",
-            "change": "+0.94%",
+            "value": "$4,181.50",
+            "change": "+0.33%",
             "direction": "up",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4207.1
+            "numeric": 4181.5
           },
           {
             "label": "COMEX白银",
-            "value": "$61.440",
-            "change": "+0.55%",
-            "direction": "up",
+            "value": "$60.475",
+            "change": "−1.03%",
+            "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 61.44
+            "numeric": 60.475
           },
           {
             "label": "Brent原油",
-            "value": "$96.30",
-            "change": "−2.89%",
+            "value": "$98.34",
+            "change": "−0.84%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / ICE",
             "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-            "numeric": 96.3
+            "numeric": 98.34
           },
           {
             "label": "WTI原油",
-            "value": "$89.51",
-            "change": "−4.41%",
+            "value": "$90.80",
+            "change": "−3.03%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-            "numeric": 89.51
+            "numeric": 90.8
           }
         ],
         "interview": {
-          "short": "本周黄金价格变化+0.94%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
+          "short": "本周黄金价格变化+0.33%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
           "logic": [
             {
               "label": "能源",
@@ -540,34 +540,34 @@
   },
   "month": {
     "label": "本月",
-    "range": "09月01日—09月29日",
-    "asOf": "2026-09-29",
+    "range": "09月01日—09月30日",
+    "asOf": "2026-09-30",
     "verified": true,
     "markets": {
       "overview": {
         "title": "本月固收总览",
-        "commentary": "本月中国10年国债收益率变化−1.64 BP，美国10年期变化+47.00 BP，中证转债指数变化−4.82%。核心是区分国内资金与基本面、海外通胀与政策，以及风险偏好对转债和商品的影响。",
+        "commentary": "本月中国10年国债收益率变化−0.12 BP，美国10年期变化+47.00 BP，中证转债指数变化−4.95%。核心是区分国内资金与基本面、海外通胀与政策，以及风险偏好对转债和商品的影响。",
         "watch": "国内资金和政府债供给、美国通胀与政策路径、转债成交和商品风险溢价。",
         "metrics": [
           {
             "label": "中国10年国债",
-            "value": "1.6670%",
-            "change": "−1.64 BP",
+            "value": "1.6822%",
+            "change": "−0.12 BP",
             "direction": "up",
             "note": "本月首尾交易日比较",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 1.667
+            "numeric": 1.6822
           },
           {
             "label": "中证转债指数",
-            "value": "469.64",
-            "change": "−4.82%",
+            "value": "468.98",
+            "change": "−4.95%",
             "direction": "down",
             "note": "本月首尾交易日比较",
             "source": "中证指数 / 东方财富",
             "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000832",
-            "numeric": 469.64
+            "numeric": 468.98
           },
           {
             "label": "美国10年国债",
@@ -581,17 +581,17 @@
           },
           {
             "label": "COMEX黄金",
-            "value": "$4,207.10",
+            "value": "$4,181.50",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4207.1
+            "numeric": 4181.5
           }
         ],
         "interview": {
-          "short": "本月市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−1.64 BP，美国10年期变化+47.00 BP，中证转债指数变化−4.82%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
+          "short": "本月市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−0.12 BP，美国10年期变化+47.00 BP，中证转债指数变化−4.95%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
           "logic": [
             {
               "label": "国内债市",
@@ -637,52 +637,52 @@
       },
       "rates": {
         "title": "本月中国利率债",
-        "commentary": "本月10年国债收益率变化−1.64 BP、30年变化−6.45 BP，隔夜Shibor变化−1.89 BP。债市方向与资金面需要结合判断。",
+        "commentary": "本月10年国债收益率变化−0.12 BP、30年变化−3.80 BP，隔夜Shibor变化−0.20 BP。债市方向与资金面需要结合判断。",
         "watch": "公开市场操作、政府债发行、资金价格和超长端期限溢价。",
         "metrics": [
           {
             "label": "10年国债收益率",
-            "value": "1.6670%",
-            "change": "−1.64 BP",
+            "value": "1.6822%",
+            "change": "−0.12 BP",
             "direction": "up",
             "note": "首尾交易日比较",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 1.667
+            "numeric": 1.6822
           },
           {
             "label": "30年国债收益率",
-            "value": "2.0735%",
-            "change": "−6.45 BP",
+            "value": "2.1000%",
+            "change": "−3.80 BP",
             "direction": "up",
             "note": "首尾交易日比较",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 2.0735
+            "numeric": 2.1
           },
           {
             "label": "隔夜 Shibor",
-            "value": "1.3451%",
-            "change": "−1.89 BP",
+            "value": "1.3620%",
+            "change": "−0.20 BP",
             "direction": "down",
             "note": "资金价格首尾比较",
             "source": "中国货币网",
             "sourceUrl": "https://www.chinamoney.com.cn/chinese/",
-            "numeric": 1.3451
+            "numeric": 1.362
           },
           {
             "label": "30年—10年利差",
-            "value": "40.65 BP",
+            "value": "41.78 BP",
             "change": "最新曲线",
             "direction": "flat",
             "note": "衡量超长端相对10年期的期限补偿",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 40.65
+            "numeric": 41.78
           }
         ],
         "interview": {
-          "short": "本月中国10年国债收益率变化−1.64 BP。我的判断重点不只看涨跌，还要看资金价格和曲线形态：资金宽松会支撑短端，增长与供给预期影响长端。当前更适合结合绝对点位判断配置价值，而不是只根据单日方向追涨杀跌。",
+          "short": "本月中国10年国债收益率变化−0.12 BP。我的判断重点不只看涨跌，还要看资金价格和曲线形态：资金宽松会支撑短端，增长与供给预期影响长端。当前更适合结合绝对点位判断配置价值，而不是只根据单日方向追涨杀跌。",
           "logic": [
             {
               "label": "基本面",
@@ -723,48 +723,48 @@
       },
       "credit": {
         "title": "本月中国信用债",
-        "commentary": "本月AAA中票3年信用利差最新约34.0BP。低利差下应重视票息保护、主体筛选和流动性。",
+        "commentary": "本月AAA中票3年信用利差最新约35.0BP。低利差下应重视票息保护、主体筛选和流动性。",
         "watch": "信用利差、季末理财行为、净融资和弱主体负面事件。",
         "metrics": [
           {
             "label": "AAA中票1年利差",
-            "value": "28.0 BP",
+            "value": "27.0 BP",
             "change": "较同期限国债",
             "direction": "flat",
             "note": "公开曲线代理",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 28.03
+            "numeric": 27.03
           },
           {
             "label": "AAA中票3年利差",
-            "value": "34.0 BP",
+            "value": "35.0 BP",
             "change": "较同期限国债",
             "direction": "flat",
             "note": "公开曲线代理",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 34.02
+            "numeric": 35.02
           },
           {
             "label": "AAA中票5年利差",
-            "value": "29.1 BP",
+            "value": "27.2 BP",
             "change": "较同期限国债",
             "direction": "flat",
             "note": "公开曲线代理",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 29.07
+            "numeric": 27.17
           },
           {
             "label": "AAA银行债5年利差",
-            "value": "17.2 BP",
+            "value": "15.8 BP",
             "change": "较5年国债",
             "direction": "flat",
             "note": "公开曲线代理",
             "source": "中国债券信息网",
             "sourceUrl": "https://yield.chinabond.com.cn/",
-            "numeric": 17.2
+            "numeric": 15.78
           }
         ],
         "interview": {
@@ -809,52 +809,52 @@
       },
       "convertible": {
         "title": "本月可转债",
-        "commentary": "本月中证转债指数变化−4.82%，最新成交额431.9亿元。指数之外仍需观察领涨扩散、估值和条款。",
+        "commentary": "本月中证转债指数变化−4.95%，最新成交额379.7亿元。指数之外仍需观察领涨扩散、估值和条款。",
         "watch": "正股风格、成交额、转股溢价率和强赎密度。",
         "metrics": [
           {
             "label": "中证转债指数",
-            "value": "469.64",
-            "change": "−4.82%",
+            "value": "468.98",
+            "change": "−4.95%",
             "direction": "down",
             "note": "首尾交易日比较",
             "source": "中证指数 / 东方财富",
             "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000832",
-            "numeric": 469.64
+            "numeric": 468.98
           },
           {
             "label": "最新成交额",
-            "value": "431.9亿元",
+            "value": "379.7亿元",
             "change": "指数口径",
             "direction": "flat",
             "note": "观察市场活跃度",
             "source": "腾讯行情 / 中证指数",
             "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000832",
-            "numeric": 431.900432
+            "numeric": 379.724182
           },
           {
             "label": "最新领涨",
             "value": "润禾转02",
-            "change": "+57.30%",
+            "change": "+8.80%",
             "direction": "up",
             "note": "最新收盘涨幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": 57.3
+            "numeric": 8.805
           },
           {
             "label": "最新领跌",
-            "value": "泰坦转债",
-            "change": "−5.75%",
+            "value": "澳弘转债",
+            "change": "−13.31%",
             "direction": "down",
             "note": "最新收盘跌幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": -5.75
+            "numeric": -13.308
           }
         ],
         "interview": {
-          "short": "本月中证转债指数变化−4.82%。转债同时具有股性和债性，指数上涨可能来自正股、估值或两者共同推动。分析时还要看成交额、领涨品种和转股溢价率；若成交放大且领涨扩散，行情持续性通常更好。",
+          "short": "本月中证转债指数变化−4.95%。转债同时具有股性和债性，指数上涨可能来自正股、估值或两者共同推动。分析时还要看成交额、领涨品种和转股溢价率；若成交放大且领涨扩散，行情持续性通常更好。",
           "logic": [
             {
               "label": "正股",
@@ -986,43 +986,43 @@
         "metrics": [
           {
             "label": "COMEX黄金",
-            "value": "$4,207.10",
+            "value": "$4,181.50",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4207.1
+            "numeric": 4181.5
           },
           {
             "label": "COMEX白银",
-            "value": "$61.440",
+            "value": "$60.475",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 61.44
+            "numeric": 60.475
           },
           {
             "label": "Brent原油",
-            "value": "$96.30",
+            "value": "$98.34",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / ICE",
             "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-            "numeric": 96.3
+            "numeric": 98.34
           },
           {
             "label": "WTI原油",
-            "value": "$89.51",
+            "value": "$90.80",
             "change": "暂无可比",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-            "numeric": 89.51
+            "numeric": 90.8
           }
         ],
         "interview": {
