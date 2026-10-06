@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T20:44:20Z",
+  "generatedAt": "2026-10-06T03:19:51Z",
   "days": [
     {
       "date": "2026-09-30",
@@ -50,22 +50,22 @@
       },
       "commodities": {
         "silver": {
-          "price": 61.375,
-          "pct": 1.59
+          "price": 61.055,
+          "pct": -0.4
         },
         "gold": {
-          "price": 4167.4,
-          "pct": 0.12
+          "price": 4156.7,
+          "pct": 0.0
         },
         "wti": {
-          "price": 89.23,
-          "pct": -2.06
+          "price": 89.64,
+          "pct": 0.23
         },
         "brent": {
-          "price": 100.26,
-          "pct": -1.95
+          "price": 100.59,
+          "pct": 0.27
         },
-        "quote_time": "2026-10-06T04:44+08:00"
+        "quote_time": "2026-10-06T11:19+08:00"
       }
     },
     {
