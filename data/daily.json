@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T21:24:01Z",
+  "generatedAt": "2026-10-13T03:52:21Z",
   "days": [
     {
       "date": "2026-10-12",
@@ -43,13 +43,13 @@
             },
             {
               "label": "COMEX黄金",
-              "value": "$4,195.90",
-              "change": "−0.48%",
-              "direction": "down",
+              "value": "$4,204.70",
+              "change": "+0.34%",
+              "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 4195.9
+              "numeric": 4204.7
             }
           ],
           "sources": [
@@ -307,7 +307,7 @@
               "note": "自动抓取时点涨幅居前，需结合正股和交易拥挤度",
               "source": "新浪财经 / 上交所",
               "sourceUrl": "https://bond.sse.com.cn/",
-              "numeric": 10.698
+              "numeric": 10.7
             },
             {
               "label": "最新领跌个券",
@@ -317,7 +317,7 @@
               "note": "自动抓取时点跌幅居前，关注条款和正股负反馈",
               "source": "新浪财经 / 上交所",
               "sourceUrl": "https://bond.sse.com.cn/",
-              "numeric": -12.091
+              "numeric": -12.09
             }
           ],
           "sources": [
@@ -448,48 +448,48 @@
         },
         "commodities": {
           "title": "商品市场",
-          "commentary": "自动抓取时点显示，COMEX黄金−0.48%、Brent原油+1.17%。能源主要通过通胀预期影响债市，黄金则同时受实际利率、美元和避险需求驱动。",
+          "commentary": "自动抓取时点显示，COMEX黄金+0.34%、Brent原油−1.10%。能源主要通过通胀预期影响债市，黄金则同时受实际利率、美元和避险需求驱动。",
           "watch": "原油供给与地缘风险、实际利率、美元和交易所结算价。",
           "metrics": [
             {
               "label": "COMEX黄金",
-              "value": "$4,195.90",
-              "change": "−0.48%",
-              "direction": "down",
+              "value": "$4,204.70",
+              "change": "+0.34%",
+              "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 4195.9
+              "numeric": 4204.7
             },
             {
               "label": "COMEX白银",
-              "value": "$60.570",
-              "change": "−0.78%",
-              "direction": "down",
+              "value": "$60.575",
+              "change": "+0.10%",
+              "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 60.57
+              "numeric": 60.575
             },
             {
               "label": "Brent原油",
-              "value": "$105.94",
-              "change": "+1.17%",
-              "direction": "up",
+              "value": "$105.48",
+              "change": "−1.10%",
+              "direction": "down",
               "note": "当月连续合约自动报价",
               "source": "东方财富 / ICE",
               "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-              "numeric": 105.94
+              "numeric": 105.48
             },
             {
               "label": "WTI原油",
-              "value": "$93.16",
-              "change": "+1.43%",
-              "direction": "up",
+              "value": "$92.70",
+              "change": "−1.11%",
+              "direction": "down",
               "note": "NYMEX当月连续合约自动报价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-              "numeric": 93.16
+              "numeric": 92.7
             }
           ],
           "sources": [
@@ -515,7 +515,7 @@
             }
           ],
           "interview": {
-            "short": "当日黄金价格变化−0.58%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
+            "short": "当日黄金价格变化−0.37%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
             "logic": [
               {
                 "label": "能源",
