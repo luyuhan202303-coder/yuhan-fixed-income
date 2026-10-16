@@ -7,7 +7,7 @@
     "markets": {
       "overview": {
         "title": "本周固收总览",
-        "commentary": "本周中国10年国债收益率变化−1.21 BP，美国10年期变化−5.00 BP，中证转债指数变化−2.94%。核心是区分国内资金与基本面、海外通胀与政策，以及风险偏好对转债和商品的影响。",
+        "commentary": "本周中国10年国债收益率变化−1.21 BP，美国10年期变化−14.00 BP，中证转债指数变化−2.94%。核心是区分国内资金与基本面、海外通胀与政策，以及风险偏好对转债和商品的影响。",
         "watch": "国内资金和政府债供给、美国通胀与政策路径、转债成交和商品风险溢价。",
         "metrics": [
           {
@@ -32,27 +32,27 @@
           },
           {
             "label": "美国10年国债",
-            "value": "5.19%",
-            "change": "−5.00 BP",
+            "value": "5.10%",
+            "change": "−14.00 BP",
             "direction": "up",
-            "note": "官方曲线截至2026-10-14",
+            "note": "官方曲线截至2026-10-15",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 5.19
+            "numeric": 5.1
           },
           {
             "label": "COMEX黄金",
-            "value": "$4,167.80",
-            "change": "−0.88%",
+            "value": "$4,172.10",
+            "change": "−0.78%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4167.8
+            "numeric": 4172.1
           }
         ],
         "interview": {
-          "short": "本周市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−1.21 BP，美国10年期变化−5.00 BP，中证转债指数变化−2.94%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
+          "short": "本周市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−1.21 BP，美国10年期变化−14.00 BP，中证转债指数变化−2.94%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
           "logic": [
             {
               "label": "国内债市",
@@ -311,7 +311,7 @@
             "note": "最新收盘跌幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": -16.361
+            "numeric": -16.36
           }
         ],
         "interview": {
@@ -356,52 +356,52 @@
       },
       "ust": {
         "title": "本周美国国债",
-        "commentary": "本周2年期收益率变化+2.00 BP、10年期变化−5.00 BP、30年期变化−8.00 BP。比较长短端变化可判断曲线由政策路径还是期限溢价主导。",
+        "commentary": "本周2年期收益率变化−3.00 BP、10年期变化−14.00 BP、30年期变化−17.00 BP。比较长短端变化可判断曲线由政策路径还是期限溢价主导。",
         "watch": "通胀、就业、FOMC、财政供给和期限溢价。",
         "metrics": [
           {
             "label": "2年期美债",
-            "value": "4.82%",
-            "change": "+2.00 BP",
-            "direction": "down",
-            "note": "截至2026-10-14",
+            "value": "4.77%",
+            "change": "−3.00 BP",
+            "direction": "up",
+            "note": "截至2026-10-15",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 4.82
+            "numeric": 4.77
           },
           {
             "label": "10年期美债",
-            "value": "5.19%",
-            "change": "−5.00 BP",
+            "value": "5.10%",
+            "change": "−14.00 BP",
             "direction": "up",
-            "note": "截至2026-10-14",
+            "note": "截至2026-10-15",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 5.19
+            "numeric": 5.1
           },
           {
             "label": "30年期美债",
-            "value": "5.52%",
-            "change": "−8.00 BP",
+            "value": "5.43%",
+            "change": "−17.00 BP",
             "direction": "up",
-            "note": "截至2026-10-14",
+            "note": "截至2026-10-15",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 5.52
+            "numeric": 5.43
           },
           {
             "label": "2s10s曲线",
-            "value": "37 BP",
+            "value": "33 BP",
             "change": "最新斜率",
             "direction": "flat",
             "note": "10年期减2年期",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 37.0
+            "numeric": 33.0
           }
         ],
         "interview": {
-          "short": "本周美国10年期国债收益率变化−5.00 BP。短端主要反映联储政策路径，长端还包含增长、通胀、财政供给和期限溢价。若短端上行快于长端，通常表现为熊平；反之则可能熊陡。配置上需要确认通胀和期限溢价是否见顶。",
+          "short": "本周美国10年期国债收益率变化−14.00 BP。短端主要反映联储政策路径，长端还包含增长、通胀、财政供给和期限溢价。若短端上行快于长端，通常表现为熊平；反之则可能熊陡。配置上需要确认通胀和期限溢价是否见顶。",
           "logic": [
             {
               "label": "政策路径",
@@ -442,52 +442,52 @@
       },
       "commodities": {
         "title": "本周商品市场",
-        "commentary": "本周黄金变化−0.88%、Brent原油变化+0.41%。能源看供给与通胀，黄金看实际利率、美元和避险需求。",
+        "commentary": "本周黄金变化−0.78%、Brent原油变化−0.02%。能源看供给与通胀，黄金看实际利率、美元和避险需求。",
         "watch": "能源供给、地缘风险、实际利率、美元和交易所结算价。",
         "metrics": [
           {
             "label": "COMEX黄金",
-            "value": "$4,167.80",
-            "change": "−0.88%",
+            "value": "$4,172.10",
+            "change": "−0.78%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4167.8
+            "numeric": 4172.1
           },
           {
             "label": "COMEX白银",
-            "value": "$57.080",
-            "change": "−5.77%",
+            "value": "$57.330",
+            "change": "−5.36%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 57.08
+            "numeric": 57.33
           },
           {
             "label": "Brent原油",
-            "value": "$105.91",
-            "change": "+0.41%",
-            "direction": "up",
+            "value": "$105.46",
+            "change": "−0.02%",
+            "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / ICE",
             "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-            "numeric": 105.91
+            "numeric": 105.46
           },
           {
             "label": "WTI原油",
-            "value": "$97.86",
-            "change": "+5.57%",
+            "value": "$95.93",
+            "change": "+3.48%",
             "direction": "up",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-            "numeric": 97.86
+            "numeric": 95.93
           }
         ],
         "interview": {
-          "short": "本周黄金价格变化−0.88%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
+          "short": "本周黄金价格变化−0.78%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
           "logic": [
             {
               "label": "能源",
@@ -546,7 +546,7 @@
     "markets": {
       "overview": {
         "title": "本月固收总览",
-        "commentary": "本月中国10年国债收益率变化−2.98 BP，美国10年期变化−3.00 BP，中证转债指数变化−4.01%。核心是区分国内资金与基本面、海外通胀与政策，以及风险偏好对转债和商品的影响。",
+        "commentary": "本月中国10年国债收益率变化−2.98 BP，美国10年期变化−12.00 BP，中证转债指数变化−4.01%。核心是区分国内资金与基本面、海外通胀与政策，以及风险偏好对转债和商品的影响。",
         "watch": "国内资金和政府债供给、美国通胀与政策路径、转债成交和商品风险溢价。",
         "metrics": [
           {
@@ -571,27 +571,27 @@
           },
           {
             "label": "美国10年国债",
-            "value": "5.19%",
-            "change": "−3.00 BP",
+            "value": "5.10%",
+            "change": "−12.00 BP",
             "direction": "up",
-            "note": "官方曲线截至2026-10-14",
+            "note": "官方曲线截至2026-10-15",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 5.19
+            "numeric": 5.1
           },
           {
             "label": "COMEX黄金",
-            "value": "$4,167.80",
-            "change": "−0.82%",
+            "value": "$4,172.10",
+            "change": "−0.72%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4167.8
+            "numeric": 4172.1
           }
         ],
         "interview": {
-          "short": "本月市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−2.98 BP，美国10年期变化−3.00 BP，中证转债指数变化−4.01%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
+          "short": "本月市场的核心是中外利率与风险资产表现并不完全同步。中国10年国债收益率变化−2.98 BP，美国10年期变化−12.00 BP，中证转债指数变化−4.01%。因此回答面试问题时，我会先区分国内资金与基本面，再讨论海外通胀和政策，最后落到转债及商品的风险偏好。",
           "logic": [
             {
               "label": "国内债市",
@@ -850,7 +850,7 @@
             "note": "最新收盘跌幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": -16.361
+            "numeric": -16.36
           }
         ],
         "interview": {
@@ -895,52 +895,52 @@
       },
       "ust": {
         "title": "本月美国国债",
-        "commentary": "本月2年期收益率变化+7.00 BP、10年期变化−3.00 BP、30年期变化−8.00 BP。比较长短端变化可判断曲线由政策路径还是期限溢价主导。",
+        "commentary": "本月2年期收益率变化+2.00 BP、10年期变化−12.00 BP、30年期变化−17.00 BP。比较长短端变化可判断曲线由政策路径还是期限溢价主导。",
         "watch": "通胀、就业、FOMC、财政供给和期限溢价。",
         "metrics": [
           {
             "label": "2年期美债",
-            "value": "4.82%",
-            "change": "+7.00 BP",
+            "value": "4.77%",
+            "change": "+2.00 BP",
             "direction": "down",
-            "note": "截至2026-10-14",
+            "note": "截至2026-10-15",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 4.82
+            "numeric": 4.77
           },
           {
             "label": "10年期美债",
-            "value": "5.19%",
-            "change": "−3.00 BP",
+            "value": "5.10%",
+            "change": "−12.00 BP",
             "direction": "up",
-            "note": "截至2026-10-14",
+            "note": "截至2026-10-15",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 5.19
+            "numeric": 5.1
           },
           {
             "label": "30年期美债",
-            "value": "5.52%",
-            "change": "−8.00 BP",
+            "value": "5.43%",
+            "change": "−17.00 BP",
             "direction": "up",
-            "note": "截至2026-10-14",
+            "note": "截至2026-10-15",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 5.52
+            "numeric": 5.43
           },
           {
             "label": "2s10s曲线",
-            "value": "37 BP",
+            "value": "33 BP",
             "change": "最新斜率",
             "direction": "flat",
             "note": "10年期减2年期",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 37.0
+            "numeric": 33.0
           }
         ],
         "interview": {
-          "short": "本月美国10年期国债收益率变化−3.00 BP。短端主要反映联储政策路径，长端还包含增长、通胀、财政供给和期限溢价。若短端上行快于长端，通常表现为熊平；反之则可能熊陡。配置上需要确认通胀和期限溢价是否见顶。",
+          "short": "本月美国10年期国债收益率变化−12.00 BP。短端主要反映联储政策路径，长端还包含增长、通胀、财政供给和期限溢价。若短端上行快于长端，通常表现为熊平；反之则可能熊陡。配置上需要确认通胀和期限溢价是否见顶。",
           "logic": [
             {
               "label": "政策路径",
@@ -981,52 +981,52 @@
       },
       "commodities": {
         "title": "本月商品市场",
-        "commentary": "本月黄金变化−0.82%、Brent原油变化+2.32%。能源看供给与通胀，黄金看实际利率、美元和避险需求。",
+        "commentary": "本月黄金变化−0.72%、Brent原油变化+1.88%。能源看供给与通胀，黄金看实际利率、美元和避险需求。",
         "watch": "能源供给、地缘风险、实际利率、美元和交易所结算价。",
         "metrics": [
           {
             "label": "COMEX黄金",
-            "value": "$4,167.80",
-            "change": "−0.82%",
+            "value": "$4,172.10",
+            "change": "−0.72%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4167.8
+            "numeric": 4172.1
           },
           {
             "label": "COMEX白银",
-            "value": "$57.080",
-            "change": "−5.64%",
+            "value": "$57.330",
+            "change": "−5.22%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 57.08
+            "numeric": 57.33
           },
           {
             "label": "Brent原油",
-            "value": "$105.91",
-            "change": "+2.32%",
+            "value": "$105.46",
+            "change": "+1.88%",
             "direction": "up",
             "note": "自动报价首尾比较",
             "source": "东方财富 / ICE",
             "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-            "numeric": 105.91
+            "numeric": 105.46
           },
           {
             "label": "WTI原油",
-            "value": "$97.86",
-            "change": "+7.62%",
+            "value": "$95.93",
+            "change": "+5.50%",
             "direction": "up",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-            "numeric": 97.86
+            "numeric": 95.93
           }
         ],
         "interview": {
-          "short": "本月黄金价格变化−0.82%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
+          "short": "本月黄金价格变化−0.72%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
           "logic": [
             {
               "label": "能源",
