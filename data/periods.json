@@ -35,20 +35,20 @@
             "value": "5.00%",
             "change": "0.00 BP",
             "direction": "flat",
-            "note": "官方曲线截至2026-10-23",
+            "note": "官方曲线截至2026-10-26",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
             "numeric": 5.0
           },
           {
             "label": "COMEX黄金",
-            "value": "$4,028.70",
+            "value": "$4,030.00",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4028.7
+            "numeric": 4030.0
           }
         ],
         "interview": {
@@ -301,7 +301,7 @@
             "note": "最新收盘涨幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": 12.575
+            "numeric": 12.57
           },
           {
             "label": "最新领跌",
@@ -311,7 +311,7 @@
             "note": "最新收盘跌幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": -18.999
+            "numeric": -19.0
           }
         ],
         "interview": {
@@ -361,43 +361,43 @@
         "metrics": [
           {
             "label": "2年期美债",
-            "value": "4.69%",
+            "value": "4.68%",
             "change": "0.00 BP",
             "direction": "flat",
-            "note": "截至2026-10-23",
+            "note": "截至2026-10-26",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 4.69
+            "numeric": 4.68
           },
           {
             "label": "10年期美债",
             "value": "5.00%",
             "change": "0.00 BP",
             "direction": "flat",
-            "note": "截至2026-10-23",
+            "note": "截至2026-10-26",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
             "numeric": 5.0
           },
           {
             "label": "30年期美债",
-            "value": "5.33%",
+            "value": "5.31%",
             "change": "0.00 BP",
             "direction": "flat",
-            "note": "截至2026-10-23",
+            "note": "截至2026-10-26",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 5.33
+            "numeric": 5.31
           },
           {
             "label": "2s10s曲线",
-            "value": "31 BP",
+            "value": "32 BP",
             "change": "最新斜率",
             "direction": "flat",
             "note": "10年期减2年期",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 31.0
+            "numeric": 32.0
           }
         ],
         "interview": {
@@ -447,43 +447,43 @@
         "metrics": [
           {
             "label": "COMEX黄金",
-            "value": "$4,028.70",
+            "value": "$4,030.00",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4028.7
+            "numeric": 4030.0
           },
           {
             "label": "COMEX白银",
-            "value": "$54.050",
+            "value": "$53.895",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 54.05
+            "numeric": 53.895
           },
           {
             "label": "Brent原油",
-            "value": "$110.70",
+            "value": "$109.75",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / ICE",
             "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-            "numeric": 110.7
+            "numeric": 109.75
           },
           {
             "label": "WTI原油",
-            "value": "$101.84",
+            "value": "$100.89",
             "change": "0.00%",
             "direction": "flat",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-            "numeric": 101.84
+            "numeric": 100.89
           }
         ],
         "interview": {
@@ -574,20 +574,20 @@
             "value": "5.00%",
             "change": "−22.00 BP",
             "direction": "up",
-            "note": "官方曲线截至2026-10-23",
+            "note": "官方曲线截至2026-10-26",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
             "numeric": 5.0
           },
           {
             "label": "COMEX黄金",
-            "value": "$4,028.70",
-            "change": "−4.13%",
+            "value": "$4,030.00",
+            "change": "−4.10%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4028.7
+            "numeric": 4030.0
           }
         ],
         "interview": {
@@ -840,7 +840,7 @@
             "note": "最新收盘涨幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": 12.575
+            "numeric": 12.57
           },
           {
             "label": "最新领跌",
@@ -850,7 +850,7 @@
             "note": "最新收盘跌幅居前",
             "source": "新浪财经 / 上交所",
             "sourceUrl": "https://bond.sse.com.cn/",
-            "numeric": -18.999
+            "numeric": -19.0
           }
         ],
         "interview": {
@@ -895,48 +895,48 @@
       },
       "ust": {
         "title": "本月美国国债",
-        "commentary": "本月2年期收益率变化−6.00 BP、10年期变化−22.00 BP、30年期变化−27.00 BP。比较长短端变化可判断曲线由政策路径还是期限溢价主导。",
+        "commentary": "本月2年期收益率变化−7.00 BP、10年期变化−22.00 BP、30年期变化−29.00 BP。比较长短端变化可判断曲线由政策路径还是期限溢价主导。",
         "watch": "通胀、就业、FOMC、财政供给和期限溢价。",
         "metrics": [
           {
             "label": "2年期美债",
-            "value": "4.69%",
-            "change": "−6.00 BP",
+            "value": "4.68%",
+            "change": "−7.00 BP",
             "direction": "up",
-            "note": "截至2026-10-23",
+            "note": "截至2026-10-26",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 4.69
+            "numeric": 4.68
           },
           {
             "label": "10年期美债",
             "value": "5.00%",
             "change": "−22.00 BP",
             "direction": "up",
-            "note": "截至2026-10-23",
+            "note": "截至2026-10-26",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
             "numeric": 5.0
           },
           {
             "label": "30年期美债",
-            "value": "5.33%",
-            "change": "−27.00 BP",
+            "value": "5.31%",
+            "change": "−29.00 BP",
             "direction": "up",
-            "note": "截至2026-10-23",
+            "note": "截至2026-10-26",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 5.33
+            "numeric": 5.31
           },
           {
             "label": "2s10s曲线",
-            "value": "31 BP",
+            "value": "32 BP",
             "change": "最新斜率",
             "direction": "flat",
             "note": "10年期减2年期",
             "source": "U.S. Treasury",
             "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-            "numeric": 31.0
+            "numeric": 32.0
           }
         ],
         "interview": {
@@ -981,52 +981,52 @@
       },
       "commodities": {
         "title": "本月商品市场",
-        "commentary": "本月黄金变化−4.13%、Brent原油变化+6.95%。能源看供给与通胀，黄金看实际利率、美元和避险需求。",
+        "commentary": "本月黄金变化−4.10%、Brent原油变化+6.03%。能源看供给与通胀，黄金看实际利率、美元和避险需求。",
         "watch": "能源供给、地缘风险、实际利率、美元和交易所结算价。",
         "metrics": [
           {
             "label": "COMEX黄金",
-            "value": "$4,028.70",
-            "change": "−4.13%",
+            "value": "$4,030.00",
+            "change": "−4.10%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 4028.7
+            "numeric": 4030.0
           },
           {
             "label": "COMEX白银",
-            "value": "$54.050",
-            "change": "−10.65%",
+            "value": "$53.895",
+            "change": "−10.90%",
             "direction": "down",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-            "numeric": 54.05
+            "numeric": 53.895
           },
           {
             "label": "Brent原油",
-            "value": "$110.70",
-            "change": "+6.95%",
+            "value": "$109.75",
+            "change": "+6.03%",
             "direction": "up",
             "note": "自动报价首尾比较",
             "source": "东方财富 / ICE",
             "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-            "numeric": 110.7
+            "numeric": 109.75
           },
           {
             "label": "WTI原油",
-            "value": "$101.84",
-            "change": "+12.00%",
+            "value": "$100.89",
+            "change": "+10.95%",
             "direction": "up",
             "note": "自动报价首尾比较",
             "source": "东方财富 / CME",
             "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-            "numeric": 101.84
+            "numeric": 100.89
           }
         ],
         "interview": {
-          "short": "本月黄金价格变化−4.13%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
+          "short": "本月黄金价格变化−4.10%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
           "logic": [
             {
               "label": "能源",
