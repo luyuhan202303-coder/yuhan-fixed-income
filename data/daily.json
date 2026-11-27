@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:54:19Z",
+  "generatedAt": "2026-11-27T05:21:11Z",
   "days": [
     {
       "date": "2026-11-26",
@@ -43,13 +43,13 @@
             },
             {
               "label": "COMEX黄金",
-              "value": "$3,593.40",
-              "change": "+0.81%",
+              "value": "$3,664.90",
+              "change": "+2.81%",
               "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 3593.4
+              "numeric": 3664.9
             }
           ],
           "sources": [
@@ -317,7 +317,7 @@
               "note": "自动抓取时点跌幅居前，关注条款和正股负反馈",
               "source": "新浪财经 / 上交所",
               "sourceUrl": "https://bond.sse.com.cn/",
-              "numeric": -14.277
+              "numeric": -14.28
             }
           ],
           "sources": [
@@ -448,48 +448,48 @@
         },
         "commodities": {
           "title": "商品市场",
-          "commentary": "自动抓取时点显示，COMEX黄金+0.81%、Brent原油+1.17%。能源主要通过通胀预期影响债市，黄金则同时受实际利率、美元和避险需求驱动。",
+          "commentary": "自动抓取时点显示，COMEX黄金+2.81%、Brent原油+0.79%。能源主要通过通胀预期影响债市，黄金则同时受实际利率、美元和避险需求驱动。",
           "watch": "原油供给与地缘风险、实际利率、美元和交易所结算价。",
           "metrics": [
             {
               "label": "COMEX黄金",
-              "value": "$3,593.40",
-              "change": "+0.81%",
+              "value": "$3,664.90",
+              "change": "+2.81%",
               "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 3593.4
+              "numeric": 3664.9
             },
             {
               "label": "COMEX白银",
-              "value": "$41.750",
-              "change": "+2.99%",
+              "value": "$43.830",
+              "change": "+8.12%",
               "direction": "up",
               "note": "自动抓取时点报价，非官方结算价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/metals/precious/gold.html",
-              "numeric": 41.75
+              "numeric": 43.83
             },
             {
               "label": "Brent原油",
-              "value": "$91.70",
-              "change": "+1.17%",
+              "value": "$92.39",
+              "change": "+0.79%",
               "direction": "up",
               "note": "当月连续合约自动报价",
               "source": "东方财富 / ICE",
               "sourceUrl": "https://www.ice.com/products/219/Brent-Crude-Futures",
-              "numeric": 91.7
+              "numeric": 92.39
             },
             {
               "label": "WTI原油",
-              "value": "$84.91",
-              "change": "+1.47%",
+              "value": "$85.87",
+              "change": "+2.62%",
               "direction": "up",
               "note": "NYMEX当月连续合约自动报价",
               "source": "东方财富 / CME",
               "sourceUrl": "https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html",
-              "numeric": 84.91
+              "numeric": 85.87
             }
           ],
           "sources": [
@@ -515,7 +515,7 @@
             }
           ],
           "interview": {
-            "short": "当日黄金价格变化−0.74%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
+            "short": "当日黄金价格变化+1.24%。商品与债市最重要的联系是通胀预期：能源上涨可能推高名义收益率并延后宽松，黄金则同时受实际利率、美元和避险需求影响，所以油价与金价并不一定同向。",
             "logic": [
               {
                 "label": "能源",
